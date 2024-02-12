@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.17.0.1">
+	<node type="NodeDummy" id="308600639" name="Drone">
+		<transform>1 2.64697796017e-22 -3.82137123179e-15 0.0 9.26442286059e-23 1 8.74227800037e-08 0.0 3.82137123179e-15 -8.74227800037e-08 1 0.0 0 0 0 1.0</transform>
+		<node type="ObjectMeshStatic" id="698901394" immovable="1" name="Cube.011">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://feaadc8c52865db07a8dff281d1694a9e3efa368</mesh_name>
+			<surface name="Body" material="f5b351d389bb550c5c38c127173f98f065895b23"/>
+			<surface name="Body Logo" material="9bf41b3f59f8a50a86b08e5334f3fc4f6bd6c78f"/>
+			<transform>100 8.74227942467e-06 -8.74227800037e-06 0.0 8.74227942467e-06 -1.6292067191e-05 100 0.0 8.74227800037e-06 -100 -1.62920679553e-05 0.0 7.45057500805e-09 6.3929275844e-08 1.46253128052 1.0</transform>
+			<node type="ObjectMeshStatic" id="719990217" immovable="1" name="Cube">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://563a3b57979487636c55b9ebd847e97a3fddafa7</mesh_name>
+				<surface name="Metal Parts" material="8de3bca7c9861b1835fddc3b3e1ef7e93916b8f7"/>
+				<transform>1 -1.32348898008e-23 -6.99441943892e-25 0.0 -1.32348898008e-23 1 0 0.0 1.25354447015e-23 0 1 0.0 3.12423117801e-11 -0.00035737037622 8.40546262738e-06 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="825384084" immovable="1" name="Cylinder.001">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://837bc49e5d886d2860b7209a0808c369f5fc68da</mesh_name>
+				<surface name="Metal Parts" material="8de3bca7c9861b1835fddc3b3e1ef7e93916b8f7"/>
+				<transform>1 -1.32348898008e-23 -6.99441943892e-25 0.0 -1.32348898008e-23 1 0 0.0 1.25354447015e-23 0 1 0.0 -3.79600428922e-11 -0.00041803478539 0.000150000024233 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1465163491" immovable="1" name="Cylinder.003">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://8266aa61a58aa735d2a973155ceb320689512271</mesh_name>
+				<surface name="Nuts" material="ace724eba041130f2dfc0fbf65a9ae41b19a4a3b"/>
+				<transform>1 -1.32348898008e-23 -6.99441943892e-25 0.0 -1.32348898008e-23 1 0 0.0 1.25354447015e-23 0 1 0.0 -4.07865912769e-11 -0.000385702841878 0.00015000002282 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1731491558" immovable="1" name="Cylinder.004">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://4681270066cfd2afc86e9b5c305592dae64fb91c</mesh_name>
+				<surface name="Motor" material="309bbad7800f4f24f154516b5d36c1b78e9f6f27"/>
+				<transform>1 -1.32348898008e-23 -6.99441943892e-25 0.0 -1.32348898008e-23 1 0 0.0 1.25354447015e-23 0 1 0.0 -5.65372877642e-11 -0.000205535882115 0.000150000014945 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="2112790797" immovable="1" name="Cylinder.008">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://ce777c7be163b2ee21745c4fbde4b408c5f881cb</mesh_name>
+				<surface name="Stand" material="1adb690383b4a22372409f5750696eb0744e0253"/>
+				<transform>1 -1.32348898008e-23 -6.99441943892e-25 0.0 -1.32348898008e-23 1 0 0.0 1.25354447015e-23 0 1 0.0 4.31053128832e-10 -0.000669437633795 0.000299029230531 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1878871816" immovable="1" name="Cylinder.009">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://c0a1ec3243a1b38980c06fee092b89e5fa976cae</mesh_name>
+				<surface name="Blades" material="5355fb6f619322171c82858303ebb8b6bb560fbf"/>
+				<surface name="Blades White" material="0e5b02f78d656345916cd38bfe798fc8cd286747"/>
+				<transform>0.0577340338367 -3.8737030881e-08 0.998331999556 0.0 -1.26013989649e-07 1 4.60892036354e-08 0.0 -0.998331999556 -1.284647139e-07 0.0577340338367 0.0 -0.0037181833344 -4.84780863783e-05 -0.0025539255121 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="294725319" immovable="1" name="Cylinder.010">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://de484825f3b389a77924d419b148be6de86acc35</mesh_name>
+				<surface name="Fan Guard" material="0654637f503ce11f0840ca932892648d410dafcf"/>
+				<transform>1 -1.32348898008e-23 -6.99441943892e-25 0.0 -1.32348898008e-23 1 0 0.0 1.25354447015e-23 0 1 0.0 -6.01710938655e-11 -0.000163969987035 0.000150000013128 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1068512634" immovable="1" name="Cube.021">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://66a630b4c37fd1a2df6f92d071be1d2488657010</mesh_name>
+				<surface name="Metal Parts" material="8de3bca7c9861b1835fddc3b3e1ef7e93916b8f7"/>
+				<transform>1 -1.32348898008e-23 -6.99441943892e-25 0.0 -1.32348898008e-23 1 0 0.0 1.25354447015e-23 0 1 0.0 -8.97046867149e-11 0.000173854923683 0.00219169303015 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1721386641" immovable="1" name="Cube.025">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://cae987dfdc0c7fc83d8b5cf3cf121acb85cc042f</mesh_name>
+				<surface name="Battery" material="1260392be3b5a7a8b106d7ff571ddc0f132f1e7b"/>
+				<surface name="Battery Logo" material="ec1ec43386e1d8514f9f018749fc5260dabf4d83"/>
+				<transform>1 -1.32348898008e-23 -6.99441943892e-25 0.0 -1.32348898008e-23 1 0 0.0 1.25354447015e-23 0 1 0.0 4.59489901331e-10 -0.000142469337117 0.00157878369716 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1317752508" immovable="1" name="Cube.022">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://29726506fb09292dc5a70c82d5d4cac9ba0ce3c2</mesh_name>
+				<surface name="Metal Parts" material="8de3bca7c9861b1835fddc3b3e1ef7e93916b8f7"/>
+				<transform>1 -1.32348898008e-23 -6.99441943892e-25 0.0 -1.32348898008e-23 1 0 0.0 1.25354447015e-23 0 1 0.0 -8.39631858471e-10 -0.000409634212798 -0.00227596951721 1.0</transform>
+				<node type="ObjectMeshStatic" id="1799150315" immovable="1" name="Cylinder.011">
+					<streaming_mode_vram>0</streaming_mode_vram>
+					<streaming_mode_ram>0</streaming_mode_ram>
+					<mesh_name>guid://74a33a29c29056af951f3d5d77f1af9f0fc7d039</mesh_name>
+					<surface name="Metal Parts" material="8de3bca7c9861b1835fddc3b3e1ef7e93916b8f7"/>
+					<transform>1 -1.32348898008e-23 -1.39343412111e-23 0.0 0 1 5.29395592034e-23 0.0 2.57703313469e-23 -5.29395592034e-23 1 0.0 -3.57225065659e-11 -0.000230567455189 2.34068447875e-06 1.0</transform>
+					<node type="ObjectMeshStatic" id="1320334158" immovable="1" name="Cylinder.014">
+						<streaming_mode_vram>0</streaming_mode_vram>
+						<streaming_mode_ram>0</streaming_mode_ram>
+						<mesh_name>guid://00776da80730044677d01984fe3ec88dfc1c3c44</mesh_name>
+						<surface name="Metal Parts" material="8de3bca7c9861b1835fddc3b3e1ef7e93916b8f7"/>
+						<transform>1 0 1.25354447015e-23 0.0 -1.32348898008e-23 1 0 0.0 -6.99445099336e-25 5.29395592034e-23 1 0.0 -4.99966927363e-07 -4.89985957019e-05 -3.14366796056e-05 1.0</transform>
+						<node type="ObjectMeshStatic" id="1905336917" immovable="1" name="Cube.023">
+							<streaming_mode_vram>0</streaming_mode_vram>
+							<streaming_mode_ram>0</streaming_mode_ram>
+							<mesh_name>guid://4d7881837d201a93fe941fd7ca2116a02c851ad3</mesh_name>
+							<surface name="Camera" material="71d7983b95f0f6dc4ea9c40f56418fbf0f9d5d8b"/>
+							<surface name="Camera Logo" material="4f38d543e4a4c9dce3ef3f970bc53884c4856e93"/>
+							<transform>1 -1.32348898008e-23 1.25354510124e-23 0.0 0 1 0 0.0 1.2535447857e-23 0 1 0.0 6.02584332332e-07 -1.19513772078e-09 -7.08626210689e-05 1.0</transform>
+							<node type="ObjectMeshStatic" id="784895920" immovable="1" name="Cylinder.017">
+								<streaming_mode_vram>0</streaming_mode_vram>
+								<streaming_mode_ram>0</streaming_mode_ram>
+								<mesh_name>guid://8f5fc31ae6c1fe8ca3154a56aca8184f267c6216</mesh_name>
+								<surface name="Camera" material="71d7983b95f0f6dc4ea9c40f56418fbf0f9d5d8b"/>
+								<transform>1 -1.32348898008e-23 1.25354510124e-23 0.0 -1.32348898008e-23 1 5.29395592034e-23 0.0 -6.99435633005e-25 -1.05879118407e-22 1 0.0 -0.000136445080861 -2.13128814498e-11 -0.000214691758156 1.0</transform>
+							</node>
+							<node type="ObjectMeshStatic" id="235822927" immovable="1" name="Sphere">
+								<streaming_mode_vram>0</streaming_mode_vram>
+								<streaming_mode_ram>0</streaming_mode_ram>
+								<mesh_name>guid://fe14446da533e9d9f328b2e1e8cae98e53fab27d</mesh_name>
+								<surface name="Camera lens glass" material="b9a24337100fc2d3a0e587cbf086f62dfabf8787"/>
+								<surface name="Black Camera" material="7c186363e8d3636b3bdee7b7606103d390c83cb3"/>
+								<surface name="Camera Lens Black" material="43549b4b7974e59acddb941f5e29cfb083b7a09b"/>
+								<transform>1 -1.32348898008e-23 1.25354510124e-23 0.0 -1.32348898008e-23 1 5.29395592034e-23 0.0 -6.99435633005e-25 -1.05879118407e-22 1 0.0 -0.000136445108801 -2.1161614654e-11 -0.00021123111248 1.0</transform>
+							</node>
+							<node type="ObjectMeshStatic" id="2077901922" immovable="1" name="Cylinder.018">
+								<streaming_mode_vram>0</streaming_mode_vram>
+								<streaming_mode_ram>0</streaming_mode_ram>
+								<mesh_name>guid://cf4191dc83c8f598de5aa378c9bced01d17cd1b8</mesh_name>
+								<surface name="Glass" material="67238d6b3cd6187aeeefe03f9a8c143e677432bb"/>
+								<transform>1 -1.32348898008e-23 1.25354510124e-23 0.0 -1.32348898008e-23 1 5.29395592034e-23 0.0 -6.99435633005e-25 -1.05879118407e-22 1 0.0 -0.000136445099488 -2.32080521708e-11 -0.000258048176765 1.0</transform>
+							</node>
+						</node>
+					</node>
+				</node>
+			</node>
+			<node type="ObjectMeshStatic" id="727021657" immovable="1" name="Cylinder.002">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://c946cd67349de162225648fbf3cfe250164ce9b7</mesh_name>
+				<surface name="Blades" material="5355fb6f619322171c82858303ebb8b6bb560fbf"/>
+				<surface name="Blades White" material="0e5b02f78d656345916cd38bfe798fc8cd286747"/>
+				<transform>0.0577340338367 -3.8737030881e-08 0.998331999556 0.0 -1.26013989649e-07 1 4.60892036354e-08 0.0 -0.998331999556 -1.284647139e-07 0.0577340338367 0.0 0.00371818334288 -4.84774362704e-05 -0.0025539255121 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1047168484" immovable="1" name="Cylinder.005">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://ccddda6e39d0ae9f99b2bd6a69a5ede1d654bbaa</mesh_name>
+				<surface name="Blades" material="5355fb6f619322171c82858303ebb8b6bb560fbf"/>
+				<surface name="Blades White" material="0e5b02f78d656345916cd38bfe798fc8cd286747"/>
+				<transform>0.0577340338367 -3.8737030881e-08 0.998331999556 0.0 -1.26013989649e-07 1 4.60892036354e-08 0.0 -0.998331999556 -1.284647139e-07 0.0577340338367 0.0 -0.0037181833344 -4.84778499936e-05 0.00285392493221 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1819580403" immovable="1" name="Cylinder.006">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://5e7c6af122a1702cd3c978a53c27cb86351c3701</mesh_name>
+				<surface name="Blades" material="5355fb6f619322171c82858303ebb8b6bb560fbf"/>
+				<surface name="Blades White" material="0e5b02f78d656345916cd38bfe798fc8cd286747"/>
+				<transform>0.0577340338367 -3.8737030881e-08 0.998331999556 0.0 -1.26013989649e-07 1 4.60892036354e-08 0.0 -0.998331999556 -1.284647139e-07 0.0577340338367 0.0 0.00371818334288 -4.84771998858e-05 0.00285392493221 1.0</transform>
+			</node>
+		</node>
+	</node>
+</nodes>
