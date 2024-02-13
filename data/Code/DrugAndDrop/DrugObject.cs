@@ -26,6 +26,9 @@ public class DrugObject : Component
 	private dmat4 transform;
 	private dmat4 initialTransform;
 	private bool flag;
+
+	// Словарь для хранения исходных позиций деталей
+    private Dictionary<Unigine.Object, dmat4> initialTransforms = new Dictionary<Unigine.Object, dmat4>();
 	
 	private void Init()
 	{
@@ -49,7 +52,11 @@ public class DrugObject : Component
 				{
 					mainObject = drugObject;
 					transform = cameraCast.shootingCamera.IWorldTransform * drugObject.WorldTransform;
-					initialTransform = mainObject.WorldTransform;
+					// Проверяем, есть ли у этой детали исходная позиция, если нет, то добавляем ее в словарь
+                    if (!initialTransforms.ContainsKey(mainObject))
+                    {
+                        initialTransforms.Add(mainObject, mainObject.WorldTransform);
+                    }
 				}
 				flag = true;
 			}
@@ -59,7 +66,11 @@ public class DrugObject : Component
 			flag = false;
 		}
 		if(Input.IsKeyPressed(Input.KEY.X)){
-			mainObject.WorldTransform = initialTransform;
+			// Возвращаем выбранную деталь в ее исходное положение
+            if (initialTransforms.ContainsKey(mainObject))
+            {
+                mainObject.WorldTransform = initialTransforms[mainObject];
+            }
 		}
 	}
 }

@@ -1,30 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <nodes version="2.17.0.1">
-	<node type="ObjectDummy" id="1805362649" trigger_interaction_enabled="1" name="first_person_controller">
-		<body type="BodyDummy" id="72416026" frozen="0">
-			<shape type="ShapeCapsule" id="1268127542" transform="0.99999994 0 0 0 0 1 0 0 0 0 0.999999762 0 0 0 0.875 1">
+	<node type="ObjectDummy" id="546219653" trigger_interaction_enabled="1" name="first_person_controller">
+		<body type="BodyDummy" id="1418036615" frozen="0">
+			<shape type="ShapeCapsule" id="2145546181" transform="0.99999994 0 0 0 0 1 0 0 0 0 0.999999762 0 0 0 0.875 1">
 				<radius>0.300000012</radius>
 				<height>1.14999998</height>
 			</shape>
 		</body>
 		<properties>
-			<property parent="7abd3d1dd6399bd8498bed57e699aacada031ba1" guid="521961acdd7345aa168cda4891f0a141387a4288">
+			<property parent="7abd3d1dd6399bd8498bed57e699aacada031ba1" guid="5beb88118b905b2b09b64e9b7579bcb23c4790a7">
 				<parameter name="useObjectBody">1</parameter>
 				<parameter name="cameraMode">2</parameter>
-				<parameter name="camera">1771820388</parameter>
+				<parameter name="camera">2097374752</parameter>
 				<parameter name="nearClipping">0.100000001</parameter>
 				<parameter name="farClipping">100000</parameter>
 			</property>
-			<property parent="b2fd62fb5e4dfd419db9dd2dfd67aaee8f746a52" guid="3a5b9ff74e7c6d70e66e008bf453a62a506e8447">
-				<parameter name="cameraCast">5fe5be20631bc0ad1f3ce87c33e54c893489ba3c</parameter>
+			<property parent="b2fd62fb5e4dfd419db9dd2dfd67aaee8f746a52" guid="e1a9378e6c8c4d4c3633e34cb29ef010f002d5da">
+				<parameter name="cameraCast">0503a0d508280b15d998dbffa6bfe365a0f7f2cb</parameter>
 			</property>
-			<property parent="698ba7f2fee2a9c0d8c971d8312cbadcc4607f0b" guid="9fe98ebe475f53f81ca130bab78e7a4945aef4fa">
-				<parameter name="cameraCast">5fe5be20631bc0ad1f3ce87c33e54c893489ba3c</parameter>
-				<parameter name="mouseHandler">8b2b6001eb69fc676ddbdab5cbd72e3e68570011</parameter>
+			<property parent="698ba7f2fee2a9c0d8c971d8312cbadcc4607f0b" guid="178531abe1647126125bb745eb65e5e77012ab71">
+				<parameter name="initialTransforms">
+					<value index="0">1812504274</value>
+					<value index="1">715698185</value>
+					<value index="2">1308916180</value>
+					<value index="3">1625791267</value>
+					<value index="4">376227366</value>
+					<value index="5">278800205</value>
+					<value index="6">1856282696</value>
+					<value index="7">430950151</value>
+					<value index="8">56088762</value>
+					<value index="9">308875473</value>
+					<value index="10">752948220</value>
+					<value index="11">222136985</value>
+					<value index="12">1991832356</value>
+					<value index="13">859284531</value>
+				</parameter>
+				<parameter name="cameraCast">0503a0d508280b15d998dbffa6bfe365a0f7f2cb</parameter>
+				<parameter name="mouseHandler">d89af370c48f6c23d9fc195e43d2970f1bb9ae1c</parameter>
 			</property>
 		</properties>
-		<transform>0.99999994 5.55111512313e-17 0 0.0 0 0.99999994 0 0.0 0 0 0.99999994 0.0 0 0 0 1.0</transform>
-		<node type="PlayerDummy" id="1771820388" name="player">
+		<transform>0.99999994 -5.55111512313e-17 0 0.0 0 0.99999994 0 0.0 0 0 0.99999994 0.0 0 0 0 1.0</transform>
+		<node type="PlayerDummy" id="2097374752" name="player">
 			<znear>0.300000012</znear>
 			<zfar>100000</zfar>
 			<oblique_frustum_plane>0 0 -1 0</oblique_frustum_plane>
@@ -33,9 +49,9 @@
 			<is_listener>1</is_listener>
 			<controlled>1</controlled>
 			<properties>
-				<property parent="626faa9338f4a690fa702b4244415660adab0e56" guid="8b2b6001eb69fc676ddbdab5cbd72e3e68570011"/>
-				<property parent="9b39ebd3c0538a27528311980e7637abfd87f887" guid="5fe5be20631bc0ad1f3ce87c33e54c893489ba3c">
-					<parameter name="shootingCamera">1771820388</parameter>
+				<property parent="626faa9338f4a690fa702b4244415660adab0e56" guid="d89af370c48f6c23d9fc195e43d2970f1bb9ae1c"/>
+				<property parent="9b39ebd3c0538a27528311980e7637abfd87f887" guid="0503a0d508280b15d998dbffa6bfe365a0f7f2cb">
+					<parameter name="shootingCamera">2097374752</parameter>
 				</property>
 			</properties>
 			<transform>0.999999974692 2.79554768223e-10 0 0.0 -2.79554768223e-10 0.999999974692 0 0.0 0 0 1.00000018 0.0 2.6645352591e-15 -1.7763568394e-15 2 1.0</transform>
