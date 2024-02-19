@@ -60,7 +60,6 @@ public class SelectObject : Component
 		if (selectedObject != null && selectedObject.RootNode.Name == "Drone")
 		{
 			Visualizer.RenderObjectSurfaceBoundBox(selectedObject, 0, vec4.BLUE, 0.05f);
-
 			textOfObject.Hidden = false;
 			string info = $"{selectedObject.Name}";
 			addText(info);

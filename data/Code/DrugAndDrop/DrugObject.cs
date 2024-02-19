@@ -25,10 +25,12 @@ public class DrugObject : Component
 	public MouseHandler mouseHandler = null;
 	private dmat4 transform;
 	private dmat4 initialTransform;
+	float thresholdDistance = 0.1f;
 	private bool flag;
 
 	// Словарь для хранения исходных позиций деталей
-    private Dictionary<Unigine.Object, dmat4> initialTransforms = new Dictionary<Unigine.Object, dmat4>();
+    // private Dictionary<Unigine.Object, dvec3> initialTransforms = new Dictionary<Unigine.Object, dvec3>();
+	private Dictionary<Unigine.Object, (dmat4, dvec3)> initialTransforms = new Dictionary<Unigine.Object, (dmat4, dvec3)>();
 	
 	private void Init()
 	{
@@ -55,7 +57,7 @@ public class DrugObject : Component
 					// Проверяем, есть ли у этой детали исходная позиция, если нет, то добавляем ее в словарь
                     if (!initialTransforms.ContainsKey(mainObject))
                     {
-                        initialTransforms.Add(mainObject, mainObject.WorldTransform);
+                        initialTransforms.Add(mainObject, (mainObject.WorldTransform, mainObject.WorldPosition));
                     }
 				}
 				flag = true;
@@ -64,12 +66,24 @@ public class DrugObject : Component
 		if (mouse == "LeftUp")
 		{
 			flag = false;
+            // Проверяем, если текущее расстояние между объектом и его исходным положением меньше порога, то возвращаем его на исходное место;
+			(dmat4, dvec3) initialValues;
+			initialTransforms.TryGetValue(mainObject, out initialValues);
+            double distancee = (mainObject.WorldPosition - initialValues.Item2).Length;
+                // if (Vector3.Distance(mainObject.WorldTransform.Translation, entry.Value.Translation) < thresholdDistance)
+				if (distancee < thresholdDistance)
+                {
+                    mainObject.WorldTransform = initialValues.Item1;
+                }
+            
 		}
 		if(Input.IsKeyPressed(Input.KEY.X)){
 			// Возвращаем выбранную деталь в ее исходное положение
             if (initialTransforms.ContainsKey(mainObject))
             {
-                mainObject.WorldTransform = initialTransforms[mainObject];
+				(dmat4, dvec3) initialValues;
+				initialTransforms.TryGetValue(mainObject, out initialValues);
+				mainObject.WorldTransform = initialValues.Item1;
             }
 		}
 	}
