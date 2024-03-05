@@ -59,7 +59,7 @@ public class DrugObject : Component
 		// Node nodeDrone2 = derivedptr;
 		// nodeDrone2.Enabled = true;
 		
-		SetOutline(0);
+		
 
 		drugObject = cameraCast.GetObject();
 		if (flag)
@@ -67,9 +67,7 @@ public class DrugObject : Component
 			mainObject.WorldTransform = cameraCast.shootingCamera.OldWorldTransform * transform;
 		}
 
-		 if (flag2){
-		 	SetOutline(1);
-		 }
+
 
 
 		string mouse = mouseHandler.IsMousePressed();
@@ -97,7 +95,7 @@ public class DrugObject : Component
 				if (distancee < thresholdDistance)
 				{
 
-					flag2 = true;
+					
 					SetOutline(1, drugObject);
 				}
 				flag = true;
@@ -120,7 +118,7 @@ public class DrugObject : Component
 					//mainObject.SetMaterialState("auxiliary", 1,); нужная строчка кода для обводки. черновик.
 					
 				}
-				SetOutline(0);
+				//SetOutline(0);
 			}
 		}
 
