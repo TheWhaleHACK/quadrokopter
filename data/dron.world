@@ -2280,14 +2280,14 @@
 			<transform>-0.707106530666 0.707106769085 0 0.0 -0.707106888294 -0.707106649876 0 0.0 0 0 0.999999880791 0.0 6.0763869 11.499999 6.8390005468 1.0</transform>
 		</node>
 		<node type="NodeDummy" id="315651967" name="Drone">
-			<transform>1 1.25134682989e-22 1.54980167815e-15 0.0 -7.01859644795e-23 1 -3.54553257864e-08 0.0 -1.54980167815e-15 3.54553257864e-08 1 0.0 -8.46987452014 11.1839377382 1.19999994298 1.0</transform>
+			<transform>1 1.25134670367e-22 1.54980167815e-15 0.0 -7.01859581686e-23 1 -3.54553222337e-08 0.0 -1.54980167815e-15 3.54553222337e-08 1 0.0 -8.46987452014 11.1839377382 1.19999994298 1.0</transform>
 			<node type="ObjectMeshStatic" id="1812504274" immovable="1" name="Cube.011">
 				<streaming_mode_vram>0</streaming_mode_vram>
 				<streaming_mode_ram>0</streaming_mode_ram>
 				<mesh_name>guid://feaadc8c52865db07a8dff281d1694a9e3efa368</mesh_name>
-				<surface name="Body" intersection="1" material="f5b351d389bb550c5c38c127173f98f065895b23"/>
-				<surface name="Body Logo" intersection="1" material="9bf41b3f59f8a50a86b08e5334f3fc4f6bd6c78f"/>
-				<transform>100 8.74227893365e-06 -8.74227574022e-06 0.0 8.74227605018e-06 -1.54664592585e-05 99.9999771118 0.0 8.7422758952e-06 -99.9999847412 -1.54664622575e-05 0.0 7.45057437967e-09 0.785712905073 0.416792508692 1.0</transform>
+				<surface name="Body" intersection="1" material="b44722f900f03b27e1f225cbf77d53fb1782e70b"/>
+				<surface name="Body Logo" intersection="1" material="b44722f900f03b27e1f225cbf77d53fb1782e70b"/>
+				<transform>100 8.74227893365e-06 -8.74227574022e-06 0.0 8.74227423119e-06 -1.5466456188e-05 99.999961853 0.0 8.7422758952e-06 -99.9999847412 -1.54664615469e-05 0.0 7.45057171514e-09 0.803309190692 0.416792509316 1.0</transform>
 			</node>
 			<node type="ObjectMeshStatic" id="715698185" immovable="1" name="Cube">
 				<streaming_mode_vram>0</streaming_mode_vram>
@@ -2300,7 +2300,7 @@
 				<streaming_mode_vram>0</streaming_mode_vram>
 				<streaming_mode_ram>0</streaming_mode_ram>
 				<mesh_name>guid://837bc49e5d886d2860b7209a0808c369f5fc68da</mesh_name>
-				<surface name="Metal Parts" intersection="1" material="8de3bca7c9861b1835fddc3b3e1ef7e93916b8f7"/>
+				<surface name="Metal Parts" intersection="1" material="5300b6956f2c4515a7abaf47bc943bd522467887"/>
 				<transform>100 8.74227893365e-06 -8.74227574022e-06 0.0 8.74227605018e-06 -1.54664592585e-05 99.9999771118 0.0 8.7422758952e-06 -99.9999847412 -1.54664622575e-05 0.0 1.31133504055e-09 0.770712911404 0.374989037401 1.0</transform>
 			</node>
 			<node type="ObjectMeshStatic" id="1625791267" immovable="1" name="Cylinder.003">
@@ -2336,7 +2336,7 @@
 				<streaming_mode_vram>0</streaming_mode_vram>
 				<streaming_mode_ram>0</streaming_mode_ram>
 				<mesh_name>guid://de484825f3b389a77924d419b148be6de86acc35</mesh_name>
-				<surface name="Fan Guard" intersection="1" material="0654637f503ce11f0840ca932892648d410dafcf"/>
+				<surface name="Fan Guard" intersection="1" material="07d5667813b1ee24f364407152b779a5421169e2"/>
 				<transform>100 8.74227893365e-06 -8.74227574022e-06 0.0 8.74227605018e-06 -1.54664592585e-05 99.9999771118 0.0 8.7422758952e-06 -99.9999847412 -1.54664622575e-05 0.0 1.31133504055e-09 0.770712908585 0.400395511421 1.0</transform>
 			</node>
 			<node type="ObjectMeshStatic" id="56088762" immovable="1" name="Cube.021">
@@ -2439,6 +2439,158 @@
 				</property>
 			</properties>
 			<transform>0.000206052383874 -0.00138101621997 0.999999165535 0.0 -0.00132107699756 0.999998092651 0.001381287002 0.0 -0.999999284744 -0.00132136058528 0.000204205542104 0.0 16.2999934757 10.8474127349 10.4781495574 1.0</transform>
+		</node>
+		<node type="NodeDummy" id="1880870407" name="Drone2">
+			<transform>1 1.03370528106e-22 -7.06542633255e-16 0.0 -9.195010674e-23 1 1.61638098461e-08 0.0 7.06542633255e-16 -1.61638098461e-08 1 0.0 -8.46987 13.062086639 1.86393428237 1.0</transform>
+			<node type="ObjectMeshStatic" id="547238842" immovable="1" name="Cube.011">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://feaadc8c52865db07a8dff281d1694a9e3efa368</mesh_name>
+				<surface name="Body" intersection="1" material="f5b351d389bb550c5c38c127173f98f065895b23"/>
+				<surface name="Body Logo" intersection="1" material="9bf41b3f59f8a50a86b08e5334f3fc4f6bd6c78f"/>
+				<transform>100 8.74227893365e-06 -8.74227574022e-06 0.0 8.74227605018e-06 -1.54664592585e-05 99.9999771118 0.0 8.7422758952e-06 -99.9999847412 -1.54664622575e-05 0.0 7.45057437967e-09 0.785712905073 0.416792508692 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="2050863057" immovable="1" name="Cube">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://563a3b57979487636c55b9ebd847e97a3fddafa7</mesh_name>
+				<surface name="Metal Parts" intersection="1" material="8de3bca7c9861b1835fddc3b3e1ef7e93916b8f7"/>
+				<transform>100 8.74227893365e-06 -8.74227574022e-06 0.0 8.74227605018e-06 -1.54664592585e-05 99.9999771118 0.0 8.7422758952e-06 -99.9999847412 -1.54664622575e-05 0.0 7.52405782123e-09 0.784872364466 0.381055479119 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="822552316" immovable="1" name="Cylinder.001">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://837bc49e5d886d2860b7209a0808c369f5fc68da</mesh_name>
+				<surface name="Metal Parts" intersection="1" material="8de3bca7c9861b1835fddc3b3e1ef7e93916b8f7"/>
+				<transform>100 8.74227893365e-06 -8.74227574022e-06 0.0 8.74227605018e-06 -1.54664592585e-05 99.9999771118 0.0 8.7422758952e-06 -99.9999847412 -1.54664622575e-05 0.0 1.31133504055e-09 0.770712911404 0.374989037401 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1643140651" immovable="1" name="Cylinder.003">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://8266aa61a58aa735d2a973155ceb320689512271</mesh_name>
+				<surface name="Nuts" intersection="1" material="ace724eba041130f2dfc0fbf65a9ae41b19a4a3b"/>
+				<transform>100 8.74227893365e-06 -8.74227574022e-06 0.0 8.74227605018e-06 -1.54664592585e-05 99.9999771118 0.0 8.7422758952e-06 -99.9999847412 -1.54664622575e-05 0.0 1.31133504055e-09 0.770712911045 0.378222231012 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1647015310" immovable="1" name="Cylinder.004">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://4681270066cfd2afc86e9b5c305592dae64fb91c</mesh_name>
+				<surface name="Motor" intersection="1" material="309bbad7800f4f24f154516b5d36c1b78e9f6f27"/>
+				<transform>100 8.74227893365e-06 -8.74227574022e-06 0.0 8.74227605018e-06 -1.54664592585e-05 99.9999771118 0.0 8.7422758952e-06 -99.9999847412 -1.54664622575e-05 0.0 1.31133504055e-09 0.770712909046 0.396238922864 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="72908693" immovable="1" name="Cylinder.008">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://ce777c7be163b2ee21745c4fbde4b408c5f881cb</mesh_name>
+				<surface name="Stand" intersection="1" material="1adb690383b4a22372409f5750696eb0744e0253"/>
+				<transform>100 8.74227893365e-06 -8.74227574022e-06 0.0 8.74227605018e-06 -1.54664592585e-05 99.9999771118 0.0 8.7422758952e-06 -99.9999847412 -1.54664622575e-05 0.0 4.73176733351e-08 0.755809996937 0.349848756009 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="760204272" immovable="1" name="Cylinder.009">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://c0a1ec3243a1b38980c06fee092b89e5fa976cae</mesh_name>
+				<surface name="Blades" intersection="1" material="5355fb6f619322171c82858303ebb8b6bb560fbf"/>
+				<surface name="Blades White" intersection="1" material="0e5b02f78d656345916cd38bfe798fc8cd286747"/>
+				<transform>5.77341211136 -99.8331842175 -1.98190932364e-05 0.0 -3.85912251179e-06 -2.00753800204e-05 99.9999771118 0.0 -99.8331994509 -5.77341123041 -5.01171608458e-06 0.0 -0.37181834874 1.04110538556 0.411944773169 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1059974799" immovable="1" name="Cylinder.010">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://de484825f3b389a77924d419b148be6de86acc35</mesh_name>
+				<surface name="Fan Guard" intersection="1" material="0654637f503ce11f0840ca932892648d410dafcf"/>
+				<transform>100 8.74227893365e-06 -8.74227574022e-06 0.0 8.74227605018e-06 -1.54664592585e-05 99.9999771118 0.0 8.7422758952e-06 -99.9999847412 -1.54664622575e-05 0.0 1.31133504055e-09 0.770712908585 0.400395511421 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="180882082" immovable="1" name="Cube.021">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://66a630b4c37fd1a2df6f92d071be1d2488657010</mesh_name>
+				<surface name="Metal Parts" intersection="1" material="8de3bca7c9861b1835fddc3b3e1ef7e93916b8f7"/>
+				<transform>100 8.74227893365e-06 -8.74227574022e-06 0.0 8.74227605018e-06 -1.54664592585e-05 99.9999771118 0.0 8.7422758952e-06 -99.9999847412 -1.54664622575e-05 0.0 1.9160378173e-08 0.566543632812 0.434177963183 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="111544729" immovable="1" name="Cube.025">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://cae987dfdc0c7fc83d8b5cf3cf121acb85cc042f</mesh_name>
+				<surface name="Battery" intersection="1" material="1260392be3b5a7a8b106d7ff571ddc0f132f1e7b"/>
+				<surface name="Battery Logo" intersection="1" material="1260392be3b5a7a8b106d7ff571ddc0f132f1e7b"/>
+				<transform>100 8.74227848238e-06 -8.74227596586e-06 0.0 8.74227491505e-06 -1.03045457353e-05 99.9999694824 0.0 8.7422768047e-06 -99.9999923706 -1.03045499128e-05 0.0 6.59562200411e-08 0.627834561651 0.402545553823 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="715220516" immovable="1" name="Cube.022">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://29726506fb09292dc5a70c82d5d4cac9ba0ce3c2</mesh_name>
+				<surface name="Metal Parts" intersection="1" material="8de3bca7c9861b1835fddc3b3e1ef7e93916b8f7"/>
+				<transform>100 8.74227893365e-06 -8.74227574022e-06 0.0 8.74227605018e-06 -1.54664592585e-05 99.9999771118 0.0 8.7422758952e-06 -99.9999847412 -1.54664622575e-05 0.0 -9.99909008925e-08 1.0133098284 0.375829131989 1.0</transform>
+				<node type="ObjectMeshStatic" id="785873715" immovable="1" name="Cylinder.011">
+					<streaming_mode_vram>0</streaming_mode_vram>
+					<streaming_mode_ram>0</streaming_mode_ram>
+					<mesh_name>guid://74a33a29c29056af951f3d5d77f1af9f0fc7d039</mesh_name>
+					<surface name="Metal Parts" material="8de3bca7c9861b1835fddc3b3e1ef7e93916b8f7"/>
+					<transform>1 -1.32348898008e-23 -1.39343412111e-23 0.0 0 1 5.29395592034e-23 0.0 2.57703313469e-23 -5.29395592034e-23 1 0.0 -3.57225065659e-11 -0.000230567455189 2.34068447875e-06 1.0</transform>
+					<node type="ObjectMeshStatic" id="7440118" immovable="1" name="Cylinder.014">
+						<streaming_mode_vram>0</streaming_mode_vram>
+						<streaming_mode_ram>0</streaming_mode_ram>
+						<mesh_name>guid://00776da80730044677d01984fe3ec88dfc1c3c44</mesh_name>
+						<surface name="Metal Parts" material="8de3bca7c9861b1835fddc3b3e1ef7e93916b8f7"/>
+						<transform>1 0 1.25354447015e-23 0.0 -1.32348898008e-23 1 0 0.0 -6.99445099336e-25 5.29395592034e-23 1 0.0 -4.99966927363e-07 -4.89985957019e-05 -3.14366796056e-05 1.0</transform>
+						<node type="ObjectMeshStatic" id="738120157" immovable="1" name="Cube.023">
+							<streaming_mode_vram>0</streaming_mode_vram>
+							<streaming_mode_ram>0</streaming_mode_ram>
+							<mesh_name>guid://4d7881837d201a93fe941fd7ca2116a02c851ad3</mesh_name>
+							<surface name="Camera" material="71d7983b95f0f6dc4ea9c40f56418fbf0f9d5d8b"/>
+							<surface name="Camera Logo" material="4f38d543e4a4c9dce3ef3f970bc53884c4856e93"/>
+							<transform>1 -1.32348898008e-23 1.25354510124e-23 0.0 0 1 0 0.0 1.2535447857e-23 0 1 0.0 6.02584332332e-07 -1.19513772078e-09 -7.08626210689e-05 1.0</transform>
+							<node type="ObjectMeshStatic" id="2123540888" immovable="1" name="Cylinder.017">
+								<streaming_mode_vram>0</streaming_mode_vram>
+								<streaming_mode_ram>0</streaming_mode_ram>
+								<mesh_name>guid://8f5fc31ae6c1fe8ca3154a56aca8184f267c6216</mesh_name>
+								<surface name="Camera" material="71d7983b95f0f6dc4ea9c40f56418fbf0f9d5d8b"/>
+								<transform>1 -1.32348898008e-23 1.25354510124e-23 0.0 -1.32348898008e-23 1 5.29395592034e-23 0.0 -6.99435633005e-25 -1.05879118407e-22 1 0.0 -0.000136445080861 -2.13128814498e-11 -0.000214691758156 1.0</transform>
+							</node>
+							<node type="ObjectMeshStatic" id="692854807" immovable="1" name="Sphere">
+								<streaming_mode_vram>0</streaming_mode_vram>
+								<streaming_mode_ram>0</streaming_mode_ram>
+								<mesh_name>guid://fe14446da533e9d9f328b2e1e8cae98e53fab27d</mesh_name>
+								<surface name="Camera lens glass" material="b9a24337100fc2d3a0e587cbf086f62dfabf8787"/>
+								<surface name="Black Camera" material="7c186363e8d3636b3bdee7b7606103d390c83cb3"/>
+								<surface name="Camera Lens Black" material="43549b4b7974e59acddb941f5e29cfb083b7a09b"/>
+								<transform>1 -1.32348898008e-23 1.25354510124e-23 0.0 -1.32348898008e-23 1 5.29395592034e-23 0.0 -6.99435633005e-25 -1.05879118407e-22 1 0.0 -0.000136445108801 -2.1161614654e-11 -0.00021123111248 1.0</transform>
+							</node>
+							<node type="ObjectMeshStatic" id="1280622218" immovable="1" name="Cylinder.018">
+								<streaming_mode_vram>0</streaming_mode_vram>
+								<streaming_mode_ram>0</streaming_mode_ram>
+								<mesh_name>guid://cf4191dc83c8f598de5aa378c9bced01d17cd1b8</mesh_name>
+								<surface name="Glass" material="67238d6b3cd6187aeeefe03f9a8c143e677432bb"/>
+								<transform>1 -1.32348898008e-23 1.25354510124e-23 0.0 -1.32348898008e-23 1 5.29395592034e-23 0.0 -6.99435633005e-25 -1.05879118407e-22 1 0.0 -0.000136445099488 -2.32080521708e-11 -0.000258048176765 1.0</transform>
+							</node>
+						</node>
+					</node>
+				</node>
+			</node>
+			<node type="ObjectMeshStatic" id="2082577505" immovable="1" name="Cylinder.002">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://c946cd67349de162225648fbf3cfe250164ce9b7</mesh_name>
+				<surface name="Blades" intersection="1" material="5355fb6f619322171c82858303ebb8b6bb560fbf"/>
+				<surface name="Blades White" intersection="1" material="0e5b02f78d656345916cd38bfe798fc8cd286747"/>
+				<transform>5.77341211136 -99.8331842175 -1.98190932364e-05 0.0 -3.85912251179e-06 -2.00753800204e-05 99.9999771118 0.0 -99.8331994509 -5.77341123041 -5.01171608458e-06 0.0 0.371818318988 1.04110545057 0.411944773169 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="871074380" immovable="1" name="Cylinder.005">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://ccddda6e39d0ae9f99b2bd6a69a5ede1d654bbaa</mesh_name>
+				<surface name="Blades" intersection="1" material="5355fb6f619322171c82858303ebb8b6bb560fbf"/>
+				<surface name="Blades White" intersection="1" material="0e5b02f78d656345916cd38bfe798fc8cd286747"/>
+				<transform>5.77341211136 -99.8331842175 -1.98190932364e-05 0.0 -3.85912251179e-06 -2.00753800204e-05 99.9999771118 0.0 -99.8331994509 -5.77341123041 -5.01171608458e-06 0.0 -0.371818301463 0.500320423644 0.411944713167 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="971718971" immovable="1" name="Cylinder.006">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://5e7c6af122a1702cd3c978a53c27cb86351c3701</mesh_name>
+				<surface name="Blades" intersection="1" material="5355fb6f619322171c82858303ebb8b6bb560fbf"/>
+				<surface name="Blades White" intersection="1" material="0e5b02f78d656345916cd38bfe798fc8cd286747"/>
+				<transform>5.77341211136 -99.8331842175 -1.98190932364e-05 0.0 -3.85912251179e-06 -2.00753800204e-05 99.9999771118 0.0 -99.8331994509 -5.77341123041 -5.01171608458e-06 0.0 0.371818366265 0.500320488655 0.411944713167 1.0</transform>
+			</node>
 		</node>
 	</editor>
 	<console>
