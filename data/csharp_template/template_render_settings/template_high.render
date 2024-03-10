@@ -623,6 +623,8 @@
 		<composite_material_guid>guid://</composite_material_guid>
 		<composite_deferred_material_guid>guid://</composite_deferred_material_guid>
 		<debug_materials/>
-		<scriptable_materials/>
+		<scriptable_materials>
+			<material guid="08a76858c76409d4d980482cb0df78fc0acc827a" enabled="1"/>
+		</scriptable_materials>
 	</render>
 </settings>

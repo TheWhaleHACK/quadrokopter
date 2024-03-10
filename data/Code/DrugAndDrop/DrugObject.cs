@@ -39,7 +39,7 @@ public class DrugObject : Component
 		flag = false;
 		mainObject = node as Unigine.Object;
 		//flag2 = false;
-		SetOutline(0, mainObject);
+		SetOutline(1, mainObject);
 	}
 	private void SetOutline(int enabled, Unigine.Object gameObject)
 	{
