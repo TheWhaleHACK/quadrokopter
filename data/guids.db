@@ -2776,7 +2776,7 @@
 	"5ac943be547b6964c5d1d5bace5731ed2474f9fa": "core/multi_projector/render_projection.basemat",
 	"03df230e53be42cf91f3840a8609f177df9fee4a": "core/materials/base/render/reprojection/reprojection.basemat",
 	"ec6634b4be664ee49a3c56d03bdb781df84ab410": "core/materials/base/objects/clouds/reprojection/render_clouds_reprojection.basemat",
-	"e77dab7b37f22d11146fad980b649ae95df11d91": "vr_post_filter_selection.basemat",
+	"08a76858c76409d4d980482cb0df78fc0acc827a": "vr_post_filter_selection.basemat",
 	"9db19a7b09424cf03206418dc6fb2403e58263fc": "editor2/materials/selection/editor_post_selection.basemat",
 	"c11bb8370e6f0fd9e8470ccba9dbd52883ea7c87": "core/materials/base/render/camera/srgb_correction/render_srgb_correction.basemat",
 	"3ae29c25d1ccadd126876819e096087e53382035": "core/materials/base/objects/clouds/intersection/render_clouds_intersection.basemat",
