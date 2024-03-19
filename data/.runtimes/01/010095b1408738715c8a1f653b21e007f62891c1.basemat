@@ -18,6 +18,7 @@ Slider "metalness"=0.000000 < min=0 max=1 shader_name="var_3faaa105866f6f4f9c67d
 Slider "roughness"=0.500000 < min=0 max=1 shader_name="var_4b93d8479cb2d112283ef34d1b437d234adde333">
 }
 	State static_shadow = true
+	State use_bound_scale = false
 
 	
 	Shader vertex_struct =

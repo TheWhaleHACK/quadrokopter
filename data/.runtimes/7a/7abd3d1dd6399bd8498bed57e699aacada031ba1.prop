@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<property version="2.17.0.1" name="FirstPersonController" guid="7abd3d1dd6399bd8498bed57e699aacada031ba1" parent="657ecdbbfc83135a26777f86012da3587b67be0c" editable="0">
+<property version="2.18.0.1" name="FirstPersonController" guid="7abd3d1dd6399bd8498bed57e699aacada031ba1" parent="657ecdbbfc83135a26777f86012da3587b67be0c" editable="0">
 	<struct name="DebugCamera">
 		<parameter name="enabled" type="toggle" tooltip="Debug camera enabled">0</parameter>
 		<parameter name="useFixedAngles" type="toggle" tooltip="Use debug camera with fixed angles" enabled="1">0</parameter>

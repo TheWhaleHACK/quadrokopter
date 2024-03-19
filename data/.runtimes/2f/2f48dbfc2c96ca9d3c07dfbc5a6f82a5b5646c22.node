@@ -1,0 +1,1150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.18.0.1">
+	<node type="NodeDummy" id="519062803" name="SONYSIFI">
+		<transform>1 1.74845560007e-07 0 0.0 -1.74845560007e-07 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+		<node type="ObjectMeshStatic" id="1224935254" immovable="1" name="car_space">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://7534215bda8b963f4604309b4cc8159804effd19</mesh_name>
+			<surface name="surface_0" intersection="1" material="4dfec30f491f753f6e89094db6d3d695e89f9d6f"/>
+			<transform>2 -8.74227800037e-08 0 0.0 -8.74227800037e-08 1 0 0.0 0 0 1 0.0 3.02936321724 -2.01942994852 1.49263501167 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="1575524029" immovable="1" name="wall_rear">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://a877f18e926d181cdc148b4e259309e8d2e7c3a4</mesh_name>
+			<surface name="Slate black Wall Paint" intersection="1" material="1126d51e5cb8c5243fe51ede3303609995270cb4"/>
+			<transform>1 -2.64697796017e-23 0 0.0 2.64697796017e-23 1 0 0.0 0 0 1 0.0 6.95013523102 -6.07600143297e-07 0.468693584204 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="1707272440" immovable="1" name="floor">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://1485b805acb82482d4f86945a8196797652b3ab3</mesh_name>
+			<surface name="polished_concrete" intersection="1" material="5fee0586a01ff4e7ef6f074679dc73ab323602dc"/>
+			<transform>1 -2.64697796017e-23 0 0.0 2.64697796017e-23 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="1348442103" immovable="1" name="wooden_walls">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://64743d70d44efccd801c5d30a6c98fc1547f4076</mesh_name>
+			<surface name="Bamboo Wood" intersection="1" material="9a85f7829e9bfd40d8312d4275d0324382798f78"/>
+			<transform>1 -2.64697796017e-23 0 0.0 2.64697796017e-23 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="1056249066" immovable="1" name="wall_behind_wood">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://0b8ebabf096b3c8d4c80ddff161d5704861a3d5d</mesh_name>
+			<surface name="Slate black Wall Paint" intersection="1" material="1126d51e5cb8c5243fe51ede3303609995270cb4"/>
+			<transform>1 -2.64697796017e-23 0 0.0 2.64697796017e-23 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="537935681" immovable="1" name="ceiling_back">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://419b08229d7cc3f0334e1de2daf371fc7e4c1f18</mesh_name>
+			<surface name="Plaster white " intersection="1" material="324f14bea76495d088b23e7ec6df278e4b820354"/>
+			<transform>1 -2.64697796017e-23 0 0.0 2.64697796017e-23 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="63901612" immovable="1" name="ceiling_back_frame">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://397fe809291ab8383c7acd49953b28e604081797</mesh_name>
+			<surface name="Aluminium sand black" intersection="1" material="4593b93a7d6ee8f4ec9096faa8c5f55a99739a70"/>
+			<transform>1 -2.64697796017e-23 0 0.0 2.64697796017e-23 1 0 0.0 0 0 1 0.0 0 0 0 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="1979533083" immovable="1" name="walls_open_back">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://ac51ce248a043638403cc9e4fe64efb1f7fd500a</mesh_name>
+			<surface name="Plaster white " intersection="1" material="324f14bea76495d088b23e7ec6df278e4b820354"/>
+			<transform>1 -2.64697796017e-23 0 0.0 2.64697796017e-23 1 0 0.0 0 0 1 0.0 -1.08445370197 9.48059574118e-08 3.39959430695 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="373510590" immovable="1" name="walls_closed">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://9bf322637a2a28ca820099a3ac0d42159329ffe1</mesh_name>
+			<surface name="Plaster white " intersection="1" material="324f14bea76495d088b23e7ec6df278e4b820354"/>
+			<transform>1 -2.64697796017e-23 0 0.0 2.64697796017e-23 1 0 0.0 0 0 1 0.0 -1.08445370197 9.48059574118e-08 3.39959430695 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="737791493" immovable="1" name="top_light_rail">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://ed995ff6d05cfa6166d2b1b669bae4796e7d97cc</mesh_name>
+			<surface name="Aluminium sand black" intersection="1" material="4593b93a7d6ee8f4ec9096faa8c5f55a99739a70"/>
+			<transform>0.00999999977648 -8.74228027143e-10 -8.74227780497e-10 0.0 -8.74228027143e-10 -2.82129955155e-09 -0.00999999977648 0.0 8.74227780497e-10 0.00999999977648 -2.82129962797e-09 0.0 1.00116593353 -3.32802876642 3.00921940804 1.0</transform>
+			<node type="ObjectMeshStatic" id="514942880" immovable="1" name="top_light_mount">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://0788104d1368591ab426698d825f3c94b636f0bb</mesh_name>
+				<surface name="Plastic_black" intersection="1" material="9a8747f20cb99724066ccdb2d2e1283562596268"/>
+				<surface name="Aluminium sand black" intersection="1" material="4593b93a7d6ee8f4ec9096faa8c5f55a99739a70"/>
+				<transform>1 0 -2.49383073493e-21 0.0 3.97046694025e-23 1 -2.84217094304e-14 0.0 2.50550318158e-21 2.84217094304e-14 1 0.0 2.28881803253e-05 -3.73322747676e-05 0 1.0</transform>
+				<node type="ObjectMeshStatic" id="425391743" immovable="1" name="top_light_body">
+					<streaming_mode_vram>0</streaming_mode_vram>
+					<streaming_mode_ram>0</streaming_mode_ram>
+					<mesh_name>guid://fb960218cad11a7b233999d878c57740e366aede</mesh_name>
+					<surface name="AM152_001_01" intersection="1" material="e13b80f65fb162ada1c7d2b6020d6f7c0c37d0cc"/>
+					<surface name="Aluminium sand black" intersection="1" material="4593b93a7d6ee8f4ec9096faa8c5f55a99739a70"/>
+					<surface name="Plastic_black" intersection="1" material="9a8747f20cb99724066ccdb2d2e1283562596268"/>
+					<surface name="white_gloss" intersection="1" material="880d2a2ea7463caf65a9a3ee8097500bf7204b44"/>
+					<transform>0.918477898713 -0.0243986426387 -0.394718807006 0.0 -0.134070454617 0.919778898211 -0.368824853278 0.0 0.372052899555 0.391677652824 0.841525552916 0.0 6.53775149839 14.3469165809 0.049072265625 1.0</transform>
+				</node>
+			</node>
+			<node type="ObjectMeshStatic" id="1454051794" immovable="1" name="top_light_mount.001">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://6691bc47bac82849f3c7c787ccb9da3fc60048a5</mesh_name>
+				<surface name="Plastic_black" intersection="1" material="9a8747f20cb99724066ccdb2d2e1283562596268"/>
+				<surface name="Aluminium sand black" intersection="1" material="4593b93a7d6ee8f4ec9096faa8c5f55a99739a70"/>
+				<transform>1 0 -2.49383073493e-21 0.0 3.97046694025e-23 1 -2.84217094304e-14 0.0 2.50550318158e-21 2.84217094304e-14 1 0.0 431.244415283 -7.50328584118e-05 5.68434188608e-14 1.0</transform>
+				<node type="ObjectMeshStatic" id="163219209" immovable="1" name="top_light_body.001">
+					<streaming_mode_vram>0</streaming_mode_vram>
+					<streaming_mode_ram>0</streaming_mode_ram>
+					<mesh_name>guid://23148d0a159083ebf4bfdaca59e6155a7f8161c0</mesh_name>
+					<surface name="AM152_001_01" intersection="1" material="e13b80f65fb162ada1c7d2b6020d6f7c0c37d0cc"/>
+					<surface name="Aluminium sand black" intersection="1" material="4593b93a7d6ee8f4ec9096faa8c5f55a99739a70"/>
+					<surface name="Plastic_black" intersection="1" material="9a8747f20cb99724066ccdb2d2e1283562596268"/>
+					<surface name="white_gloss" intersection="1" material="880d2a2ea7463caf65a9a3ee8097500bf7204b44"/>
+					<transform>0.938628498176 -0.0343740516289 0.343212540239 0.0 0.164041587448 0.919778878944 -0.356506735178 0.0 -0.303425100751 0.390928557965 0.868969545382 0.0 6.53778201597 14.3469165809 0.0490722656251 1.0</transform>
+				</node>
+			</node>
+			<node type="ObjectMeshStatic" id="1016489172" immovable="1" name="top_light_mount.002">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://7a3d34d1fed521e762ce4211f75829d2ceb36a1f</mesh_name>
+				<surface name="Plastic_black" intersection="1" material="9a8747f20cb99724066ccdb2d2e1283562596268"/>
+				<surface name="Aluminium sand black" intersection="1" material="4593b93a7d6ee8f4ec9096faa8c5f55a99739a70"/>
+				<transform>1 0 -2.49383073493e-21 0.0 3.97046694025e-23 1 -2.84217094304e-14 0.0 2.50550318158e-21 2.84217094304e-14 1 0.0 279.351226807 -6.17539336116e-05 0 1.0</transform>
+				<node type="ObjectMeshStatic" id="351439395" immovable="1" name="top_light_body.002">
+					<streaming_mode_vram>0</streaming_mode_vram>
+					<streaming_mode_ram>0</streaming_mode_ram>
+					<mesh_name>guid://28548d4ccca7c3259b02810c6e8d74be94dab0f2</mesh_name>
+					<surface name="AM152_001_01" intersection="1" material="e13b80f65fb162ada1c7d2b6020d6f7c0c37d0cc"/>
+					<surface name="Aluminium sand black" intersection="1" material="4593b93a7d6ee8f4ec9096faa8c5f55a99739a70"/>
+					<surface name="Plastic_black" intersection="1" material="9a8747f20cb99724066ccdb2d2e1283562596268"/>
+					<surface name="white_gloss" intersection="1" material="880d2a2ea7463caf65a9a3ee8097500bf7204b44"/>
+					<transform>0.998893771011 -0.0279749595088 0.0377972998592 0.0 0.0405293484464 0.9197788911 -0.390338371407 0.0 -0.0238454584162 0.391438467721 0.919895211908 0.0 6.53772098081 14.3469165809 0.049072265625 1.0</transform>
+				</node>
+			</node>
+			<node type="ObjectMeshStatic" id="1832184102" immovable="1" name="top_light_mount.003">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://20d92c6bcdff05a7cd990bab6681118d35ac5ba9</mesh_name>
+				<surface name="Plastic_black" intersection="1" material="9a8747f20cb99724066ccdb2d2e1283562596268"/>
+				<surface name="Aluminium sand black" intersection="1" material="4593b93a7d6ee8f4ec9096faa8c5f55a99739a70"/>
+				<transform>1 0 -2.49383073493e-21 0.0 3.97046694025e-23 1 -2.84217094304e-14 0.0 2.50550318158e-21 2.84217094304e-14 1 0.0 126.735664368 -4.84118568713e-05 5.68434188608e-14 1.0</transform>
+				<node type="ObjectMeshStatic" id="565833293" immovable="1" name="top_light_body.003">
+					<streaming_mode_vram>0</streaming_mode_vram>
+					<streaming_mode_ram>0</streaming_mode_ram>
+					<mesh_name>guid://969f635eed1e0d0418e46d1e4e0c25719635f0f4</mesh_name>
+					<surface name="AM152_001_01" intersection="1" material="e13b80f65fb162ada1c7d2b6020d6f7c0c37d0cc"/>
+					<surface name="Aluminium sand black" intersection="1" material="4593b93a7d6ee8f4ec9096faa8c5f55a99739a70"/>
+					<surface name="Plastic_black" intersection="1" material="9a8747f20cb99724066ccdb2d2e1283562596268"/>
+					<surface name="white_gloss" intersection="1" material="880d2a2ea7463caf65a9a3ee8097500bf7204b44"/>
+					<transform>0.985676753571 -0.031764762165 -0.165626743446 0.0 -0.0360230161093 0.919778921514 -0.390779936333 0.0 0.164753038837 0.391149120481 0.905460546761 0.0 6.53776675718 14.3469165809 0.049072265625 1.0</transform>
+				</node>
+			</node>
+		</node>
+		<node type="ObjectMeshStatic" id="1297595208" immovable="1" name="top_light_rail.001">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://142699951d989f38416d9ad5c09e17d1e30167c3</mesh_name>
+			<surface name="Aluminium sand black" intersection="1" material="4593b93a7d6ee8f4ec9096faa8c5f55a99739a70"/>
+			<transform>-0.00999999977648 -3.01991566337e-09 -8.74228028366e-10 0.0 8.74227176358e-10 2.82129989198e-09 -0.00999999977648 0.0 3.01991591002e-09 -0.00999999977648 -2.82129962797e-09 0.0 3.23351186651 -0.666157647528 3.02702951431 1.0</transform>
+			<node type="ObjectMeshStatic" id="1753884167" immovable="1" name="top_light_mount.004">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://317463c0871454f0481a738073c5dd7a74e3ea46</mesh_name>
+				<surface name="Plastic_black" intersection="1" material="9a8747f20cb99724066ccdb2d2e1283562596268"/>
+				<surface name="Aluminium sand black" intersection="1" material="4593b93a7d6ee8f4ec9096faa8c5f55a99739a70"/>
+				<transform>1 3.74547381364e-21 2.84217069549e-14 0.0 -3.74547381364e-21 1 -2.84217118656e-14 0.0 -2.84217067742e-14 2.84217119715e-14 1 0.0 -215.64147915 3.90970637105 -0.0234375 1.0</transform>
+				<node type="ObjectMeshStatic" id="1296608186" immovable="1" name="top_light_body.004">
+					<streaming_mode_vram>0</streaming_mode_vram>
+					<streaming_mode_ram>0</streaming_mode_ram>
+					<mesh_name>guid://fcda56cf387d92d175194a0fd77f715bdc2fbced</mesh_name>
+					<surface name="AM152_001_01" intersection="1" material="e13b80f65fb162ada1c7d2b6020d6f7c0c37d0cc"/>
+					<surface name="Aluminium sand black" intersection="1" material="4593b93a7d6ee8f4ec9096faa8c5f55a99739a70"/>
+					<surface name="Plastic_black" intersection="1" material="9a8747f20cb99724066ccdb2d2e1283562596268"/>
+					<surface name="white_gloss" intersection="1" material="880d2a2ea7463caf65a9a3ee8097500bf7204b44"/>
+					<transform>0.918477943062 -0.0243985924567 -0.394718857915 0.0 -0.134070517001 0.919778891011 -0.368824848556 0.0 0.372052880562 0.391677649603 0.841525491983 0.0 -1.78466677598 13.643696941 -2.09442901611 1.0</transform>
+				</node>
+			</node>
+			<node type="ObjectMeshStatic" id="1656080337" immovable="1" name="top_light_mount.005">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://a751f6f2966ec201b5547cb243d561f5e346f968</mesh_name>
+				<surface name="Plastic_black" intersection="1" material="9a8747f20cb99724066ccdb2d2e1283562596268"/>
+				<surface name="Aluminium sand black" intersection="1" material="4593b93a7d6ee8f4ec9096faa8c5f55a99739a70"/>
+				<transform>1 3.74547381364e-21 2.84217069549e-14 0.0 -3.74547381364e-21 1 -2.84217118656e-14 0.0 -2.84217067742e-14 2.84217119715e-14 1 0.0 215.602890356 3.90966867047 -0.0234375 1.0</transform>
+				<node type="ObjectMeshStatic" id="816865020" immovable="1" name="top_light_body.005">
+					<streaming_mode_vram>0</streaming_mode_vram>
+					<streaming_mode_ram>0</streaming_mode_ram>
+					<mesh_name>guid://2cb7c299dafe2b009d2bf7d9bbb8305969910da7</mesh_name>
+					<surface name="AM152_001_01" intersection="1" material="e13b80f65fb162ada1c7d2b6020d6f7c0c37d0cc"/>
+					<surface name="Aluminium sand black" intersection="1" material="4593b93a7d6ee8f4ec9096faa8c5f55a99739a70"/>
+					<surface name="Plastic_black" intersection="1" material="9a8747f20cb99724066ccdb2d2e1283562596268"/>
+					<surface name="white_gloss" intersection="1" material="880d2a2ea7463caf65a9a3ee8097500bf7204b44"/>
+					<transform>0.938628553866 -0.0343740606711 0.343212560696 0.0 0.16404164025 0.919778885942 -0.356506860017 0.0 -0.303425078283 0.390928669872 0.868969502883 0.0 -0.120878934202 13.6434831725 -2.01222991943 1.0</transform>
+				</node>
+			</node>
+			<node type="ObjectMeshStatic" id="1104686635" immovable="1" name="top_light_mount.006">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://1563b974bed25d89ac4ba534e8991e34b98c2eda</mesh_name>
+				<surface name="Plastic_black" intersection="1" material="9a8747f20cb99724066ccdb2d2e1283562596268"/>
+				<surface name="Aluminium sand black" intersection="1" material="4593b93a7d6ee8f4ec9096faa8c5f55a99739a70"/>
+				<transform>1 3.74547381364e-21 2.84217069549e-14 0.0 -3.74547381364e-21 1 -2.84217118656e-14 0.0 -2.84217067742e-14 2.84217119715e-14 1 0.0 63.7097476562 3.90968194939 -0.0234375 1.0</transform>
+				<node type="ObjectMeshStatic" id="956394894" immovable="1" name="top_light_body.006">
+					<streaming_mode_vram>0</streaming_mode_vram>
+					<streaming_mode_ram>0</streaming_mode_ram>
+					<mesh_name>guid://5eec5f73aaf0a3519373a6b37b8825b116823071</mesh_name>
+					<surface name="AM152_001_01" intersection="1" material="e13b80f65fb162ada1c7d2b6020d6f7c0c37d0cc"/>
+					<surface name="Aluminium sand black" intersection="1" material="4593b93a7d6ee8f4ec9096faa8c5f55a99739a70"/>
+					<surface name="Plastic_black" intersection="1" material="9a8747f20cb99724066ccdb2d2e1283562596268"/>
+					<surface name="white_gloss" intersection="1" material="880d2a2ea7463caf65a9a3ee8097500bf7204b44"/>
+					<transform>0.998893770661 -0.0279749669472 0.0377973035818 0.0 0.0405293581741 0.919778867426 -0.390338426182 0.0 -0.0238454579309 0.391438546149 0.919895243343 0.0 -0.800749539663 13.6435747847 -2.20215606689 1.0</transform>
+				</node>
+			</node>
+			<node type="ObjectMeshStatic" id="1711675285" immovable="1" name="top_light_mount.007">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://6c9d9bc66aa245209c3d5d866bcbbde4fb616f1c</mesh_name>
+				<surface name="Plastic_black" intersection="1" material="9a8747f20cb99724066ccdb2d2e1283562596268"/>
+				<surface name="Aluminium sand black" intersection="1" material="4593b93a7d6ee8f4ec9096faa8c5f55a99739a70"/>
+				<transform>1 3.74547381364e-21 2.84217069549e-14 0.0 -3.74547381364e-21 1 -2.84217118656e-14 0.0 -2.84217067742e-14 2.84217119715e-14 1 0.0 -88.9057918945 3.90969529146 -0.0234375 1.0</transform>
+				<node type="ObjectMeshStatic" id="632325104" immovable="1" name="top_light_body.007">
+					<streaming_mode_vram>0</streaming_mode_vram>
+					<streaming_mode_ram>0</streaming_mode_ram>
+					<mesh_name>guid://169473dd17cef61ab1a11d1dd8c7d3dcac62bfcb</mesh_name>
+					<surface name="AM152_001_01" intersection="1" material="e13b80f65fb162ada1c7d2b6020d6f7c0c37d0cc"/>
+					<surface name="Aluminium sand black" intersection="1" material="4593b93a7d6ee8f4ec9096faa8c5f55a99739a70"/>
+					<surface name="Plastic_black" intersection="1" material="9a8747f20cb99724066ccdb2d2e1283562596268"/>
+					<surface name="white_gloss" intersection="1" material="880d2a2ea7463caf65a9a3ee8097500bf7204b44"/>
+					<transform>0.985676803857 -0.0317647968672 -0.165626797404 0.0 -0.0360230637989 0.919778838221 -0.390780280509 0.0 0.164753079525 0.391149442592 0.905460400209 0.0 -1.2517383092 13.6435137889 -2.20807647705 1.0</transform>
+				</node>
+			</node>
+		</node>
+		<node type="ObjectMeshStatic" id="1567049359" immovable="1" name="top_light_rail.002">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://ac0c02681cae2eeca09b8a2800d547ce10b092ae</mesh_name>
+			<surface name="Aluminium sand black" intersection="1" material="4593b93a7d6ee8f4ec9096faa8c5f55a99739a70"/>
+			<transform>0.00999999977648 -8.74228027143e-10 -8.74227780497e-10 0.0 -8.74228027143e-10 -2.82129955155e-09 -0.00999999977648 0.0 8.74227780497e-10 0.00999999977648 -2.82129962797e-09 0.0 1.00116628265 0.665420444702 3.00921940804 1.0</transform>
+			<node type="ObjectMeshStatic" id="79790754" immovable="1" name="top_light_mount.008">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://a590aa571ac20cf1713d85974e0e646fc2d5ba35</mesh_name>
+				<surface name="Plastic_black" intersection="1" material="9a8747f20cb99724066ccdb2d2e1283562596268"/>
+				<surface name="Aluminium sand black" intersection="1" material="4593b93a7d6ee8f4ec9096faa8c5f55a99739a70"/>
+				<transform>1 0 -2.49383073493e-21 0.0 3.97046694025e-23 1 -2.84217094304e-14 0.0 2.50550318158e-21 2.84217094304e-14 1 0.0 2.28881799842e-05 -4.13586551284e-05 7.62939453125e-06 1.0</transform>
+				<node type="ObjectMeshStatic" id="1445011865" immovable="1" name="top_light_body.008">
+					<streaming_mode_vram>0</streaming_mode_vram>
+					<streaming_mode_ram>0</streaming_mode_ram>
+					<mesh_name>guid://f960e5da32c70045cef9a39a1aaa300b78a78610</mesh_name>
+					<surface name="AM152_001_01" intersection="1" material="e13b80f65fb162ada1c7d2b6020d6f7c0c37d0cc"/>
+					<surface name="Aluminium sand black" intersection="1" material="4593b93a7d6ee8f4ec9096faa8c5f55a99739a70"/>
+					<surface name="Plastic_black" intersection="1" material="9a8747f20cb99724066ccdb2d2e1283562596268"/>
+					<surface name="white_gloss" intersection="1" material="880d2a2ea7463caf65a9a3ee8097500bf7204b44"/>
+					<transform>0.918477898713 -0.0243986426387 -0.394718807006 0.0 -0.134070454617 0.919778898211 -0.368824853278 0.0 0.372052899555 0.391677652824 0.841525552916 0.0 6.53775149839 14.3469127662 0.0490951538086 1.0</transform>
+				</node>
+			</node>
+			<node type="ObjectMeshStatic" id="393322020" immovable="1" name="top_light_mount.009">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://2214b161ada247105f590ea183fc577733eb222f</mesh_name>
+				<surface name="Plastic_black" intersection="1" material="9a8747f20cb99724066ccdb2d2e1283562596268"/>
+				<surface name="Aluminium sand black" intersection="1" material="4593b93a7d6ee8f4ec9096faa8c5f55a99739a70"/>
+				<transform>1 0 -2.49383073493e-21 0.0 3.97046694025e-23 1 -2.84217094304e-14 0.0 2.50550318158e-21 2.84217094304e-14 1 0.0 431.244415283 -7.90592387726e-05 7.62939454546e-06 1.0</transform>
+				<node type="ObjectMeshStatic" id="599413555" immovable="1" name="top_light_body.009">
+					<streaming_mode_vram>0</streaming_mode_vram>
+					<streaming_mode_ram>0</streaming_mode_ram>
+					<mesh_name>guid://3805f29c6d180942427ed65c6db3f6dee59569c2</mesh_name>
+					<surface name="AM152_001_01" intersection="1" material="e13b80f65fb162ada1c7d2b6020d6f7c0c37d0cc"/>
+					<surface name="Aluminium sand black" intersection="1" material="4593b93a7d6ee8f4ec9096faa8c5f55a99739a70"/>
+					<surface name="Plastic_black" intersection="1" material="9a8747f20cb99724066ccdb2d2e1283562596268"/>
+					<surface name="white_gloss" intersection="1" material="880d2a2ea7463caf65a9a3ee8097500bf7204b44"/>
+					<transform>0.938628498176 -0.0343740516289 0.343212540239 0.0 0.164041587448 0.919778878944 -0.356506735178 0.0 -0.303425100751 0.390928557965 0.868969545382 0.0 6.53778201597 14.3469127662 0.0490951538086 1.0</transform>
+				</node>
+			</node>
+			<node type="ObjectMeshStatic" id="1778810614" immovable="1" name="top_light_mount.010">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://a796db7b54f23d0f489a8abb21a7aad6c11a9e39</mesh_name>
+				<surface name="Plastic_black" intersection="1" material="9a8747f20cb99724066ccdb2d2e1283562596268"/>
+				<surface name="Aluminium sand black" intersection="1" material="4593b93a7d6ee8f4ec9096faa8c5f55a99739a70"/>
+				<transform>1 0 -2.49383073493e-21 0.0 3.97046694025e-23 1 -2.84217094304e-14 0.0 2.50550318158e-21 2.84217094304e-14 1 0.0 279.351226807 -6.57803139724e-05 7.62939454546e-06 1.0</transform>
+				<node type="ObjectMeshStatic" id="459237853" immovable="1" name="top_light_body.010">
+					<streaming_mode_vram>0</streaming_mode_vram>
+					<streaming_mode_ram>0</streaming_mode_ram>
+					<mesh_name>guid://a83ba92e7514932f866522ee55637fd81964b244</mesh_name>
+					<surface name="AM152_001_01" intersection="1" material="e13b80f65fb162ada1c7d2b6020d6f7c0c37d0cc"/>
+					<surface name="Aluminium sand black" intersection="1" material="4593b93a7d6ee8f4ec9096faa8c5f55a99739a70"/>
+					<surface name="Plastic_black" intersection="1" material="9a8747f20cb99724066ccdb2d2e1283562596268"/>
+					<surface name="white_gloss" intersection="1" material="880d2a2ea7463caf65a9a3ee8097500bf7204b44"/>
+					<transform>0.998893771011 -0.0279749595088 0.0377972998592 0.0 0.0405293484464 0.9197788911 -0.390338371407 0.0 -0.0238454584162 0.391438467721 0.919895211908 0.0 6.53772098081 14.3469127662 0.0490951538086 1.0</transform>
+				</node>
+			</node>
+			<node type="ObjectMeshStatic" id="2064277912" immovable="1" name="top_light_mount.011">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://c008bf25043bfa2c4298106575a1355e0e3718d3</mesh_name>
+				<surface name="Plastic_black" intersection="1" material="9a8747f20cb99724066ccdb2d2e1283562596268"/>
+				<surface name="Aluminium sand black" intersection="1" material="4593b93a7d6ee8f4ec9096faa8c5f55a99739a70"/>
+				<transform>1 0 -2.49383073493e-21 0.0 3.97046694025e-23 1 -2.84217094304e-14 0.0 2.50550318158e-21 2.84217094304e-14 1 0.0 126.735664368 -5.24382372321e-05 7.62939454546e-06 1.0</transform>
+				<node type="ObjectMeshStatic" id="649099287" immovable="1" name="top_light_body.011">
+					<streaming_mode_vram>0</streaming_mode_vram>
+					<streaming_mode_ram>0</streaming_mode_ram>
+					<mesh_name>guid://a30d7e1052c7ad3a4c4d7dd0c12943d855ba4816</mesh_name>
+					<surface name="AM152_001_01" intersection="1" material="e13b80f65fb162ada1c7d2b6020d6f7c0c37d0cc"/>
+					<surface name="Aluminium sand black" intersection="1" material="4593b93a7d6ee8f4ec9096faa8c5f55a99739a70"/>
+					<surface name="Plastic_black" intersection="1" material="9a8747f20cb99724066ccdb2d2e1283562596268"/>
+					<surface name="white_gloss" intersection="1" material="880d2a2ea7463caf65a9a3ee8097500bf7204b44"/>
+					<transform>0.985676753571 -0.031764762165 -0.165626743446 0.0 -0.0360230161093 0.919778921514 -0.390779936333 0.0 0.164753038837 0.391149120481 0.905460546761 0.0 6.53776675718 14.3469127662 0.0490951538086 1.0</transform>
+				</node>
+			</node>
+		</node>
+		<node type="ObjectMeshStatic" id="1031616138" immovable="1" name="top_light_rail.003">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://cc80d6dfc6d3de4271a09a1fd42e56c8d9c3607d</mesh_name>
+			<surface name="Aluminium sand black" intersection="1" material="4593b93a7d6ee8f4ec9096faa8c5f55a99739a70"/>
+			<transform>-0.00999999977648 -3.01991566337e-09 -8.74228028366e-10 0.0 8.74227176358e-10 2.82129989198e-09 -0.00999999977648 0.0 3.01991591002e-09 -0.00999999977648 -2.82129962797e-09 0.0 3.23351221562 3.3272916828 3.02702951431 1.0</transform>
+			<node type="ObjectMeshStatic" id="318747745" immovable="1" name="top_light_mount.012">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://8522f9c2d98da0c71870ef82b61fa88b9001a7b8</mesh_name>
+				<surface name="Plastic_black" intersection="1" material="9a8747f20cb99724066ccdb2d2e1283562596268"/>
+				<surface name="Aluminium sand black" intersection="1" material="4593b93a7d6ee8f4ec9096faa8c5f55a99739a70"/>
+				<transform>1 3.74547381364e-21 2.84217069549e-14 0.0 -3.74547381364e-21 1 -2.84217118656e-14 0.0 -2.84217067742e-14 2.84217119715e-14 1 0.0 -215.64147915 3.90967990659 -0.0234680175781 1.0</transform>
+				<node type="ObjectMeshStatic" id="851624524" immovable="1" name="top_light_body.012">
+					<streaming_mode_vram>0</streaming_mode_vram>
+					<streaming_mode_ram>0</streaming_mode_ram>
+					<mesh_name>guid://48bd212996ae3fa2ae5ea669d7e96838964fc7b7</mesh_name>
+					<surface name="AM152_001_01" intersection="1" material="e13b80f65fb162ada1c7d2b6020d6f7c0c37d0cc"/>
+					<surface name="Aluminium sand black" intersection="1" material="4593b93a7d6ee8f4ec9096faa8c5f55a99739a70"/>
+					<surface name="Plastic_black" intersection="1" material="9a8747f20cb99724066ccdb2d2e1283562596268"/>
+					<surface name="white_gloss" intersection="1" material="880d2a2ea7463caf65a9a3ee8097500bf7204b44"/>
+					<transform>0.918477943062 -0.0243985924567 -0.394718857915 0.0 -0.134070517001 0.919778891011 -0.368824848556 0.0 0.372052880562 0.391677649603 0.841525491983 0.0 -1.78460574083 13.6436702381 -2.0944519043 1.0</transform>
+				</node>
+			</node>
+			<node type="ObjectMeshStatic" id="1663637819" immovable="1" name="top_light_mount.013">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://99b5d8c4ebfad6e90cf6b484da17f11d28ee01aa</mesh_name>
+				<surface name="Plastic_black" intersection="1" material="9a8747f20cb99724066ccdb2d2e1283562596268"/>
+				<surface name="Aluminium sand black" intersection="1" material="4593b93a7d6ee8f4ec9096faa8c5f55a99739a70"/>
+				<transform>1 3.74547381364e-21 2.84217069549e-14 0.0 -3.74547381364e-21 1 -2.84217118656e-14 0.0 -2.84217067742e-14 2.84217119715e-14 1 0.0 215.602875098 3.90964220601 -0.0234985351563 1.0</transform>
+				<node type="ObjectMeshStatic" id="475381086" immovable="1" name="top_light_body.013">
+					<streaming_mode_vram>0</streaming_mode_vram>
+					<streaming_mode_ram>0</streaming_mode_ram>
+					<mesh_name>guid://e326c08327c9fb4a8cfbd7c3bce983754ec8c501</mesh_name>
+					<surface name="AM152_001_01" intersection="1" material="e13b80f65fb162ada1c7d2b6020d6f7c0c37d0cc"/>
+					<surface name="Aluminium sand black" intersection="1" material="4593b93a7d6ee8f4ec9096faa8c5f55a99739a70"/>
+					<surface name="Plastic_black" intersection="1" material="9a8747f20cb99724066ccdb2d2e1283562596268"/>
+					<surface name="white_gloss" intersection="1" material="880d2a2ea7463caf65a9a3ee8097500bf7204b44"/>
+					<transform>0.938628553866 -0.0343740606711 0.343212560696 0.0 0.16404164025 0.919778885942 -0.356506860017 0.0 -0.303425078283 0.390928669872 0.868969502883 0.0 -0.120878934204 13.6434564696 -2.01223754883 1.0</transform>
+				</node>
+			</node>
+			<node type="ObjectMeshStatic" id="1416299813" immovable="1" name="top_light_mount.014">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://28352b96a92c84030ef75d5690f697f578385a6c</mesh_name>
+				<surface name="Plastic_black" intersection="1" material="9a8747f20cb99724066ccdb2d2e1283562596268"/>
+				<surface name="Aluminium sand black" intersection="1" material="4593b93a7d6ee8f4ec9096faa8c5f55a99739a70"/>
+				<transform>1 3.74547381364e-21 2.84217069549e-14 0.0 -3.74547381364e-21 1 -2.84217118656e-14 0.0 -2.84217067742e-14 2.84217119715e-14 1 0.0 63.7097171387 3.90965548493 -0.0234680175782 1.0</transform>
+				<node type="ObjectMeshStatic" id="713552960" immovable="1" name="top_light_body.014">
+					<streaming_mode_vram>0</streaming_mode_vram>
+					<streaming_mode_ram>0</streaming_mode_ram>
+					<mesh_name>guid://2b3e9b6d937ba9ac4fad94adc57612409fde92db</mesh_name>
+					<surface name="AM152_001_01" intersection="1" material="e13b80f65fb162ada1c7d2b6020d6f7c0c37d0cc"/>
+					<surface name="Aluminium sand black" intersection="1" material="4593b93a7d6ee8f4ec9096faa8c5f55a99739a70"/>
+					<surface name="Plastic_black" intersection="1" material="9a8747f20cb99724066ccdb2d2e1283562596268"/>
+					<surface name="white_gloss" intersection="1" material="880d2a2ea7463caf65a9a3ee8097500bf7204b44"/>
+					<transform>0.998893770661 -0.0279749669472 0.0377973035818 0.0 0.0405293581741 0.919778867426 -0.390338426182 0.0 -0.0238454579309 0.391438546149 0.919895243343 0.0 -0.800749539665 13.6435480818 -2.2021484375 1.0</transform>
+				</node>
+			</node>
+			<node type="ObjectMeshStatic" id="1793579679" immovable="1" name="top_light_mount.015">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://fa5d76b809df86e772f4ee78219d0fd460a2aa7e</mesh_name>
+				<surface name="Plastic_black" intersection="1" material="9a8747f20cb99724066ccdb2d2e1283562596268"/>
+				<surface name="Aluminium sand black" intersection="1" material="4593b93a7d6ee8f4ec9096faa8c5f55a99739a70"/>
+				<transform>1 3.74547381364e-21 2.84217069549e-14 0.0 -3.74547381364e-21 1 -2.84217118656e-14 0.0 -2.84217067742e-14 2.84217119715e-14 1 0.0 -88.9058224121 3.90966882701 -0.0234985351563 1.0</transform>
+				<node type="ObjectMeshStatic" id="1691838322" immovable="1" name="top_light_body.015">
+					<streaming_mode_vram>0</streaming_mode_vram>
+					<streaming_mode_ram>0</streaming_mode_ram>
+					<mesh_name>guid://1a9afc678a93f33110d2a7a7ff62fd779aedcfc5</mesh_name>
+					<surface name="AM152_001_01" intersection="1" material="e13b80f65fb162ada1c7d2b6020d6f7c0c37d0cc"/>
+					<surface name="Aluminium sand black" intersection="1" material="4593b93a7d6ee8f4ec9096faa8c5f55a99739a70"/>
+					<surface name="Plastic_black" intersection="1" material="9a8747f20cb99724066ccdb2d2e1283562596268"/>
+					<surface name="white_gloss" intersection="1" material="880d2a2ea7463caf65a9a3ee8097500bf7204b44"/>
+					<transform>0.985676803857 -0.0317647968672 -0.165626797404 0.0 -0.0360230637989 0.919778838221 -0.390780280509 0.0 0.164753079525 0.391149442592 0.905460400209 0.0 -1.2517383092 13.6434870861 -2.20809936523 1.0</transform>
+				</node>
+			</node>
+		</node>
+		<node type="ObjectMeshStatic" id="1220059177" immovable="1" name="light_body">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://95cdd2aa241f138103d0006a9d8f00722587fe60</mesh_name>
+			<surface name="Body" intersection="1" material="f5b351d389bb550c5c38c127173f98f065895b23"/>
+			<surface name="Em" intersection="1" material="b5f483aa7ba26c1b5ff9b16a790f9660afedc760"/>
+			<transform>0.455343276262 -1.32348898008e-23 1.61770428613e-15 0.0 1.32348898008e-23 0.455343276262 -1.41424205917e-22 0.0 -1.61770428613e-15 1.41424205917e-22 0.455343276262 0.0 -4.4529296983 -2.30531105213 4.07656669617 1.0</transform>
+			<node type="ObjectMeshStatic" id="564161396" immovable="1" name="light_cable">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://88de31f14e5e921f7d09df3144d08dcf2b111e3f</mesh_name>
+				<surface name="Body" intersection="1" material="f5b351d389bb550c5c38c127173f98f065895b23"/>
+				<transform>7.54979071917e-08 8.74227734035e-08 1 0.0 8.74227734035e-08 1 -8.74227800037e-08 0.0 -1 8.74227800037e-08 7.54978995489e-08 0.0 -2.08836364718 0.00324887412939 1.432513237 1.0</transform>
+				<node type="ObjectMeshStatic" id="1522049091" immovable="1" name="light_mount">
+					<streaming_mode_vram>0</streaming_mode_vram>
+					<streaming_mode_ram>0</streaming_mode_ram>
+					<mesh_name>guid://4b620bec9fe2fc9ede81dfaca8094b5332819692</mesh_name>
+					<surface name="Body" intersection="1" material="f5b351d389bb550c5c38c127173f98f065895b23"/>
+					<transform>7.54979026916e-08 8.74227681927e-08 -0.999999940395 0.0 8.74227681927e-08 0.999999940395 8.74227747929e-08 0.0 0.999999940395 -8.74227747929e-08 7.54978950489e-08 0.0 1.78764724703 -0.00324980151425 -0.0103120803833 1.0</transform>
+				</node>
+			</node>
+		</node>
+		<node type="ObjectMeshStatic" id="238340294" immovable="1" name="light_body.001">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://c14e2e8bc15605b9dbe9adcb6a066ece2343c4c9</mesh_name>
+			<surface name="Body" intersection="1" material="f5b351d389bb550c5c38c127173f98f065895b23"/>
+			<surface name="Em" intersection="1" material="b5f483aa7ba26c1b5ff9b16a790f9660afedc760"/>
+			<transform>0.455343276262 -1.32348898008e-23 1.61770428613e-15 0.0 1.32348898008e-23 0.455343276262 -1.41424205917e-22 0.0 -1.61770428613e-15 1.41424205917e-22 0.455343276262 0.0 -4.45292956889 -0.825062422087 4.07656669617 1.0</transform>
+			<node type="ObjectMeshStatic" id="410126701" immovable="1" name="light_cable.001">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://f7d9c2fef6c2fc3d1623acbe369266ad3ee90794</mesh_name>
+				<surface name="Body" intersection="1" material="f5b351d389bb550c5c38c127173f98f065895b23"/>
+				<transform>7.54979071917e-08 8.74227734035e-08 1 0.0 8.74227734035e-08 1 -8.74227800037e-08 0.0 -1 8.74227800037e-08 7.54978995489e-08 0.0 -2.08836364718 0.00324947017584 1.432513237 1.0</transform>
+				<node type="ObjectMeshStatic" id="1436539880" immovable="1" name="light_mount.001">
+					<streaming_mode_vram>0</streaming_mode_vram>
+					<streaming_mode_ram>0</streaming_mode_ram>
+					<mesh_name>guid://80f528b54d0ab5397640c9f58693d6a004bd4de3</mesh_name>
+					<surface name="Body" intersection="1" material="f5b351d389bb550c5c38c127173f98f065895b23"/>
+					<transform>7.54979026916e-08 8.74227681927e-08 -0.999999940395 0.0 8.74227681927e-08 0.999999940395 8.74227747929e-08 0.0 0.999999940395 -8.74227747929e-08 7.54978950489e-08 0.0 1.0586795804 -0.003249380158 -0.0103120803833 1.0</transform>
+				</node>
+			</node>
+		</node>
+		<node type="ObjectMeshStatic" id="1087606311" immovable="1" name="light_body.002">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://2c948c604a61e419af0a7c20e8b9c00b823f59e6</mesh_name>
+			<surface name="Body" intersection="1" material="f5b351d389bb550c5c38c127173f98f065895b23"/>
+			<surface name="Em" intersection="1" material="b5f483aa7ba26c1b5ff9b16a790f9660afedc760"/>
+			<transform>0.455343276262 -1.32348898008e-23 1.61770428613e-15 0.0 1.32348898008e-23 0.455343276262 -1.41424205917e-22 0.0 -1.61770428613e-15 1.41424205917e-22 0.455343276262 0.0 -4.45292942426 0.829332979391 4.07656669617 1.0</transform>
+			<node type="ObjectMeshStatic" id="866104666" immovable="1" name="light_cable.002">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://ae733aef68fcb8d6b307ce2fc98e4a0bdeee280d</mesh_name>
+				<surface name="Body" intersection="1" material="f5b351d389bb550c5c38c127173f98f065895b23"/>
+				<transform>7.54979071917e-08 8.74227734035e-08 1 0.0 8.74227734035e-08 1 -8.74227800037e-08 0.0 -1 8.74227800037e-08 7.54978995489e-08 0.0 -2.08836364718 0.00324947017584 1.432513237 1.0</transform>
+				<node type="ObjectMeshStatic" id="865535217" immovable="1" name="light_mount.002">
+					<streaming_mode_vram>0</streaming_mode_vram>
+					<streaming_mode_ram>0</streaming_mode_ram>
+					<mesh_name>guid://446b1092f87cdc620d00765282eec03a5bc12a08</mesh_name>
+					<surface name="Body" intersection="1" material="f5b351d389bb550c5c38c127173f98f065895b23"/>
+					<transform>7.54979026916e-08 8.74227681927e-08 -0.999999940395 0.0 8.74227681927e-08 0.999999940395 8.74227747929e-08 0.0 0.999999940395 -8.74227747929e-08 7.54978950489e-08 0.0 1.40236091585 -0.00324929099429 -0.0103120803833 1.0</transform>
+				</node>
+			</node>
+		</node>
+		<node type="ObjectMeshStatic" id="43727260" immovable="1" name="light_body.003">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://b0e903b9fecd1ad5186bd8f9a59da59cf6c545c7</mesh_name>
+			<surface name="Body" intersection="1" material="f5b351d389bb550c5c38c127173f98f065895b23"/>
+			<surface name="Em" intersection="1" material="b5f483aa7ba26c1b5ff9b16a790f9660afedc760"/>
+			<transform>0.455343276262 -1.32348898008e-23 1.61770428613e-15 0.0 1.32348898008e-23 0.455343276262 -1.41424205917e-22 0.0 -1.61770428613e-15 1.41424205917e-22 0.455343276262 0.0 -4.45292928724 2.39665499515 4.07656669617 1.0</transform>
+			<node type="ObjectMeshStatic" id="1468074059" immovable="1" name="light_cable.003">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://f7ed2c147589bb00bfe2f7d4a153b5f12eafc87a</mesh_name>
+				<surface name="Body" intersection="1" material="f5b351d389bb550c5c38c127173f98f065895b23"/>
+				<transform>7.54979071917e-08 8.74227734035e-08 1 0.0 8.74227734035e-08 1 -8.74227800037e-08 0.0 -1 8.74227800037e-08 7.54978995489e-08 0.0 -2.08836364718 0.00324887412939 1.432513237 1.0</transform>
+				<node type="ObjectMeshStatic" id="1721581870" immovable="1" name="light_mount.003">
+					<streaming_mode_vram>0</streaming_mode_vram>
+					<streaming_mode_ram>0</streaming_mode_ram>
+					<mesh_name>guid://79a34593f8db7600cc9a2cd3a7335b4d3926bd91</mesh_name>
+					<surface name="Body" intersection="1" material="f5b351d389bb550c5c38c127173f98f065895b23"/>
+					<transform>7.54979026916e-08 8.74227681927e-08 -0.999999940395 0.0 8.74227681927e-08 0.999999940395 8.74227747929e-08 0.0 0.999999940395 -8.74227747929e-08 7.54978950489e-08 0.0 1.40236091585 -0.00324929099429 -0.0103120803833 1.0</transform>
+				</node>
+			</node>
+		</node>
+		<node type="ObjectMeshStatic" id="2011272885" immovable="1" name="light_body.004">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://258d0f66cff3f8ce7b2db1260e0d7152161759bc</mesh_name>
+			<surface name="Body" intersection="1" material="f5b351d389bb550c5c38c127173f98f065895b23"/>
+			<surface name="Em" intersection="1" material="b5f483aa7ba26c1b5ff9b16a790f9660afedc760"/>
+			<transform>0.455343276262 -1.32348898008e-23 1.61770428613e-15 0.0 1.32348898008e-23 0.455343276262 -1.41424205917e-22 0.0 -1.61770428613e-15 1.41424205917e-22 0.455343276262 0.0 -9.2622625459 -2.30531063169 4.07656669617 1.0</transform>
+			<node type="ObjectMeshStatic" id="1822210192" immovable="1" name="light_cable.004">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://ac6f86fdf8144fd7ca34d03da93724f66cbb69eb</mesh_name>
+				<surface name="Body" intersection="1" material="f5b351d389bb550c5c38c127173f98f065895b23"/>
+				<transform>7.54979071917e-08 8.74227734035e-08 1 0.0 8.74227734035e-08 1 -8.74227800037e-08 0.0 -1 8.74227800037e-08 7.54978995489e-08 0.0 -2.08836173983 0.00324887412923 1.432513237 1.0</transform>
+				<node type="ObjectMeshStatic" id="939373231" immovable="1" name="light_mount.004">
+					<streaming_mode_vram>0</streaming_mode_vram>
+					<streaming_mode_ram>0</streaming_mode_ram>
+					<mesh_name>guid://057f5f08b2c88679483ac6c88b3d3a49c619f64e</mesh_name>
+					<surface name="Body" intersection="1" material="f5b351d389bb550c5c38c127173f98f065895b23"/>
+					<transform>7.54979026916e-08 8.74227681927e-08 -0.999999940395 0.0 8.74227681927e-08 0.999999940395 8.74227747929e-08 0.0 0.999999940395 -8.74227747929e-08 7.54978950489e-08 0.0 1.78764653177 -0.00324980151418 -0.010311126709 1.0</transform>
+				</node>
+			</node>
+		</node>
+		<node type="ObjectMeshStatic" id="479838274" immovable="1" name="light_body.005">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://e4c1b277f6df8376ce982db75d8c803fb1818955</mesh_name>
+			<surface name="Body" intersection="1" material="f5b351d389bb550c5c38c127173f98f065895b23"/>
+			<surface name="Em" intersection="1" material="b5f483aa7ba26c1b5ff9b16a790f9660afedc760"/>
+			<transform>0.455343276262 -1.32348898008e-23 1.61770428613e-15 0.0 1.32348898008e-23 0.455343276262 -1.41424205917e-22 0.0 -1.61770428613e-15 1.41424205917e-22 0.455343276262 0.0 -9.26226241649 -0.825062001642 4.07656669617 1.0</transform>
+			<node type="ObjectMeshStatic" id="961151673" immovable="1" name="light_cable.005">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://b658537a8b098f83783ff13a5d7163644607cab0</mesh_name>
+				<surface name="Body" intersection="1" material="f5b351d389bb550c5c38c127173f98f065895b23"/>
+				<transform>7.54979071917e-08 8.74227734035e-08 1 0.0 8.74227734035e-08 1 -8.74227800037e-08 0.0 -1 8.74227800037e-08 7.54978995489e-08 0.0 -2.08836173983 0.00324947017567 1.432513237 1.0</transform>
+				<node type="ObjectMeshStatic" id="1717030084" immovable="1" name="light_mount.005">
+					<streaming_mode_vram>0</streaming_mode_vram>
+					<streaming_mode_ram>0</streaming_mode_ram>
+					<mesh_name>guid://7212b681c4f2d3b6a459b3c17b625bbeb0c65e4f</mesh_name>
+					<surface name="Body" intersection="1" material="f5b351d389bb550c5c38c127173f98f065895b23"/>
+					<transform>7.54979026916e-08 8.74227681927e-08 -0.999999940395 0.0 8.74227681927e-08 0.999999940395 8.74227747929e-08 0.0 0.999999940395 -8.74227747929e-08 7.54978950489e-08 0.0 1.05867886515 -0.00324938015794 -0.010311126709 1.0</transform>
+				</node>
+			</node>
+		</node>
+		<node type="ObjectMeshStatic" id="1771991379" immovable="1" name="light_body.006">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://46add93c29bd060ad2509cfc84d890c775cc3762</mesh_name>
+			<surface name="Body" intersection="1" material="f5b351d389bb550c5c38c127173f98f065895b23"/>
+			<surface name="Em" intersection="1" material="b5f483aa7ba26c1b5ff9b16a790f9660afedc760"/>
+			<transform>0.455343276262 -1.32348898008e-23 1.61770428613e-15 0.0 1.32348898008e-23 0.455343276262 -1.41424205917e-22 0.0 -1.61770428613e-15 1.41424205917e-22 0.455343276262 0.0 -9.26226227186 0.829333399836 4.07656669617 1.0</transform>
+			<node type="ObjectMeshStatic" id="1270662806" immovable="1" name="light_cable.006">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://1c20259b8c2f8fa7e2a774db3ccdc396fe70cf59</mesh_name>
+				<surface name="Body" intersection="1" material="f5b351d389bb550c5c38c127173f98f065895b23"/>
+				<transform>7.54979071917e-08 8.74227734035e-08 1 0.0 8.74227734035e-08 1 -8.74227800037e-08 0.0 -1 8.74227800037e-08 7.54978995489e-08 0.0 -2.08836173983 0.00324947017567 1.432513237 1.0</transform>
+				<node type="ObjectMeshStatic" id="818597117" immovable="1" name="light_mount.006">
+					<streaming_mode_vram>0</streaming_mode_vram>
+					<streaming_mode_ram>0</streaming_mode_ram>
+					<mesh_name>guid://e946b0ce2e6fa01cc2ed0a8e4acc44d15a77f0e4</mesh_name>
+					<surface name="Body" intersection="1" material="f5b351d389bb550c5c38c127173f98f065895b23"/>
+					<transform>7.54979026916e-08 8.74227681927e-08 -0.999999940395 0.0 8.74227681927e-08 0.999999940395 8.74227747929e-08 0.0 0.999999940395 -8.74227747929e-08 7.54978950489e-08 0.0 1.4023602006 -0.00324929099422 -0.010311126709 1.0</transform>
+				</node>
+			</node>
+		</node>
+		<node type="ObjectMeshStatic" id="152906296" immovable="1" name="light_body.007">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://1ff4d6453aaf0a011a70c7858747272624c506f3</mesh_name>
+			<surface name="Body" intersection="1" material="f5b351d389bb550c5c38c127173f98f065895b23"/>
+			<surface name="Em" intersection="1" material="b5f483aa7ba26c1b5ff9b16a790f9660afedc760"/>
+			<transform>0.455343276262 -1.32348898008e-23 1.61770428613e-15 0.0 1.32348898008e-23 0.455343276262 -1.41424205917e-22 0.0 -1.61770428613e-15 1.41424205917e-22 0.455343276262 0.0 -9.26226213484 2.3966554156 4.07656669617 1.0</transform>
+			<node type="ObjectMeshStatic" id="1899259959" immovable="1" name="light_cable.007">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://2c9e8eb03e0cf9903de66e70defde3aa48f01fb6</mesh_name>
+				<surface name="Body" intersection="1" material="f5b351d389bb550c5c38c127173f98f065895b23"/>
+				<transform>7.54979071917e-08 8.74227734035e-08 1 0.0 8.74227734035e-08 1 -8.74227800037e-08 0.0 -1 8.74227800037e-08 7.54978995489e-08 0.0 -2.08836173983 0.00324887412923 1.432513237 1.0</transform>
+				<node type="ObjectMeshStatic" id="184363050" immovable="1" name="light_mount.007">
+					<streaming_mode_vram>0</streaming_mode_vram>
+					<streaming_mode_ram>0</streaming_mode_ram>
+					<mesh_name>guid://b0e282ff3942ee98c47fe63f17d3bf8eb609139d</mesh_name>
+					<surface name="Body" intersection="1" material="f5b351d389bb550c5c38c127173f98f065895b23"/>
+					<transform>7.54979026916e-08 8.74227681927e-08 -0.999999940395 0.0 8.74227681927e-08 0.999999940395 8.74227747929e-08 0.0 0.999999940395 -8.74227747929e-08 7.54978950489e-08 0.0 1.4023602006 -0.00324929099422 -0.010311126709 1.0</transform>
+				</node>
+			</node>
+		</node>
+		<node type="ObjectMeshStatic" id="358922625" immovable="1" name="back_top_area_light">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://abc73b622492d6f160a01122a1e4d183030a8058</mesh_name>
+			<surface name="Glowing glass green" intersection="1" material="7171f066c6034fd9eaa59226bd112db914d852bc"/>
+			<transform>1 -1.74845560007e-07 3.40436874768e-14 0.0 -1.74845560007e-07 -1 3.89414377755e-07 0.0 -3.40436874768e-14 -3.89414377755e-07 -1 0.0 3.24516153336 -2.83701042807e-07 3.02498030663 1.0</transform>
+		</node>
+		<node type="NodeDummy" id="302957804" name="Stand 2">
+			<transform>-1.92143883992e-09 0.0117937074974 1.54406026889e-17 0.0 -0.0117937074974 -1.92143883992e-09 5.15519411559e-10 0.0 5.15519411559e-10 6.85481701649e-17 0.0117937074974 0.0 5.02976417448 -0.0107058297297 0.472264587879 1.0</transform>
+			<node type="ObjectMeshStatic" id="1152449371" immovable="1" name="stand surface 02/2">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://6cd46a49a58f09a0a7ec8f89c4c021021bb287d7</mesh_name>
+				<surface name="Marble" intersection="1" material="07834c62a88f9e27827f22221d897df29087a958"/>
+				<transform>1.02902495861 -3.55271372579e-15 3.10588098707e-22 0.0 3.55271363181e-15 1.02902495861 3.55271361263e-15 0.0 -3.10588109751e-22 -3.55271362586e-15 1.02902495861 0.0 0.0233154689781 0.449432371009 -122.06199646 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1232402686" immovable="1" name="stand surface 02/1">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://0deeb3647a4e60a601f56f24ac5ccc940a9e834a</mesh_name>
+				<surface name="Marble" intersection="1" material="07834c62a88f9e27827f22221d897df29087a958"/>
+				<transform>1.02902495861 -3.55271372579e-15 3.10588098707e-22 0.0 3.55271363181e-15 1.02902495861 3.55271361263e-15 0.0 -3.10588109751e-22 -3.55271362586e-15 1.02902495861 0.0 0.0233154689781 0.449432371009 -43.2913627625 1.0</transform>
+			</node>
+			<node type="ObjectMeshStatic" id="1667419205" immovable="1" name="Stand02">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://71a2eea33b041888ee8fa5e31b1cab5cc1051a21</mesh_name>
+				<surface name="Gold" intersection="1" material="d2ebb39e2c357e786ddd7d5e4037fa5f1350c734"/>
+				<transform>1 5.7228017913e-23 4.16467220861e-22 0.0 4.28844515652e-24 1 3.55271367218e-15 0.0 -4.16467226383e-22 -3.55271368542e-15 1 0.0 3.92906277513e-08 0.449432373047 -39.9999961853 1.0</transform>
+			</node>
+		</node>
+		<node type="ObjectMeshStatic" id="412340448" immovable="1" name="SM_Mio_table">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://1b124736c32bb8f00e4d58f611baad0f9f536d0c</mesh_name>
+			<surface name="MT Oak Anthracite Grey" intersection="1" material="c1d33406324ce0280977b5c61fcc916844170d5c"/>
+			<surface name="M_tableleg_black" intersection="1" material="ea805e02d8140a2f747713c2c7b4151d5e7851f8"/>
+			<surface name="PVC FB Black" intersection="1" material="5d280fbaf388d75b4f406d7aaf954fd56ad94cf0"/>
+			<transform>2.64998639663e-09 0.00583781907335 1.90220339073e-09 0.0 0.00563473626971 -2.59269224198e-09 4.88109878456e-09 0.0 -5.05702044449e-09 -1.90220109517e-09 0.00583781907335 0.0 5.96444335836 1.73375351738 0.693228244781 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="1191825087" immovable="1" name="SM_Mio_table.001">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://a950368defec23c8455fcfcd45694667374a44fb</mesh_name>
+			<surface name="MT Oak Anthracite Grey.001" intersection="1" material="38c48f7683c9b2d1ff146136f68e10889d56bb4c"/>
+			<surface name="M_tableleg_black.001" intersection="1" material="913f8e72df6853064510943240072dffcb0004e8"/>
+			<surface name="PVC FB Black.001" intersection="1" material="151aba2a663e88c541db67ea82a5f4ec3b6f59e0"/>
+			<transform>2.64998639663e-09 0.00583781907335 1.90220339073e-09 0.0 0.00563473626971 -2.59269224198e-09 4.88109878456e-09 0.0 -5.05702044449e-09 -1.90220109517e-09 0.00583781907335 0.0 5.96444309286 -1.30320958782 0.693228244781 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="1895140626" immovable="1" name="SM_Mio_table.002">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://7fa6bb58dfebd48e21a21318bc0c084e5f33761e</mesh_name>
+			<surface name="MT Oak Anthracite Grey.002" intersection="1" material="3446dee6b599b66578de00a6dd9e259b141d1d3c"/>
+			<surface name="M_tableleg_black.002" intersection="1" material="b22172e2fc574dcd68a8c8a27201ed4c5c3e2bd8"/>
+			<surface name="PVC FB Black.002" intersection="1" material="d04f989a735c6d95f714965a3bb2463cf8975ad0"/>
+			<transform>2.64998639663e-09 0.00583781907335 1.90220339073e-09 0.0 0.00563473626971 -2.59269224198e-09 4.88109878456e-09 0.0 -5.05702044449e-09 -1.90220109517e-09 0.00583781907335 0.0 1.26044275253 0.214656600433 0.693228244781 1.0</transform>
+		</node>
+		<node type="NodeDummy" id="366889289" name="focus_point">
+			<transform>1 -2.64697796017e-23 0 0.0 2.64697796017e-23 1 0 0.0 0 0 1 0.0 2.50589148734 1.87880339173 0.835299730301 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="302826004" immovable="1" name="walls_white">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://8555cc87ce00000248df17c7557924001c09e6e5</mesh_name>
+			<surface name="Plaster white .001" intersection="1" material="ca192256d62f84c2d99394161fbfb07f1fa1332c"/>
+			<transform>1 -2.64697796017e-23 0 0.0 2.64697796017e-23 1 0 0.0 0 0 1 0.0 -0.47667539199 -0.00906427880258 3.39959430695 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="811386467" immovable="1" name="main_ceiling">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://5e3d684a9cd172951686760a5ed0cf59274beb00</mesh_name>
+			<surface name="Slate black Wall Paint.001" intersection="1" material="a9b50b527a2da25cf8ceb112bcd006b51e39c6c8"/>
+			<transform>1 -2.64697796017e-23 0 0.0 2.64697796017e-23 1 0 0.0 0 0 1 0.0 0.607778309983 -0.00906437360853 0 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="131823718" immovable="1" name="ceiling_beans">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://4d6b3f115c6fcf44aa018c511d34ab366debe25f</mesh_name>
+			<surface name="Wood Black UA.001" intersection="1" material="1061663a8a7732d0ec9543fa69a24a04ba53ff70"/>
+			<transform>1 -2.64697796017e-23 0 0.0 2.64697796017e-23 1 0 0.0 0 0 1 0.0 -2.67285490115 -0.00906408680646 0.136380776763 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="1451406477" immovable="1" name="walls_open_back.001">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://556e5a8cd224f93d88700e4c53945ceae8e24c32</mesh_name>
+			<surface name="Plaster white .001" intersection="1" material="ca192256d62f84c2d99394161fbfb07f1fa1332c"/>
+			<transform>1 -2.64697796017e-23 0 0.0 2.64697796017e-23 1 0 0.0 0 0 1 0.0 -0.47667539199 -0.00906427880258 3.39959430695 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="1455901832" immovable="1" name="walls_closed.001">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://6c6dc0ab81942b1bfe34dfeb9b398f60ab2abde9</mesh_name>
+			<surface name="Plaster white .001" intersection="1" material="ca192256d62f84c2d99394161fbfb07f1fa1332c"/>
+			<transform>1 -2.64697796017e-23 0 0.0 2.64697796017e-23 1 0 0.0 0 0 1 0.0 -0.47667539199 -0.00906427880258 3.39959430695 1.0</transform>
+		</node>
+		<node type="LightOmni" id="106169927" name="Area.016">
+			<attenuation_distance>10000</attenuation_distance>
+			<shape>2 1 0.200000003</shape>
+			<shape_type>0</shape_type>
+			<intensity>15.707962</intensity>
+			<shadow_bias>1</shadow_bias>
+			<mode>0</mode>
+			<shadow_filter_mode>-1</shadow_filter_mode>
+			<shadow_filter>1</shadow_filter>
+			<shadow_penumbra_mode>-1</shadow_penumbra_mode>
+			<shadow_penumbra>0</shadow_penumbra>
+			<shadow_screen_space>0</shadow_screen_space>
+			<shadow_screen_space_num_rays>2</shadow_screen_space_num_rays>
+			<shadow_screen_space_num_steps>6</shadow_screen_space_num_steps>
+			<shadow_screen_space_noise_ray>0.150000006</shadow_screen_space_noise_ray>
+			<shadow_screen_space_noise_step>0.150000006</shadow_screen_space_noise_step>
+			<shadow_screen_space_step_size_near_distance>0</shadow_screen_space_step_size_near_distance>
+			<shadow_screen_space_step_size_far_distance>500</shadow_screen_space_step_size_far_distance>
+			<shadow_screen_space_step_size_near>2</shadow_screen_space_step_size_near>
+			<shadow_screen_space_step_size_far>30</shadow_screen_space_step_size_far>
+			<shadow_screen_space_threshold_near_distance>0</shadow_screen_space_threshold_near_distance>
+			<shadow_screen_space_threshold_far_distance>200</shadow_screen_space_threshold_far_distance>
+			<shadow_screen_space_threshold_near>3</shadow_screen_space_threshold_near>
+			<shadow_screen_space_threshold_far>0.5</shadow_screen_space_threshold_far>
+			<shadow_color_texture_mode>1</shadow_color_texture_mode>
+			<shadow_screen_space_softness>0.200000003</shadow_screen_space_softness>
+			<shadow_screen_space_translucent_depth_perspective_compensation>0.25</shadow_screen_space_translucent_depth_perspective_compensation>
+			<lens_flare_enabled>0</lens_flare_enabled>
+			<lens_flare_texture>core/textures/lens_flares_default.texture</lens_flare_texture>
+			<lens_flare_intensity>1</lens_flare_intensity>
+			<lens_flare_occlusion_fade>1</lens_flare_occlusion_fade>
+			<lens_flare_occlusion_fade_border>0.200000003</lens_flare_occlusion_fade_border>
+			<lens_flare_position_offset>0 0 0</lens_flare_position_offset>
+			<lens_flare_use_light_color>0</lens_flare_use_light_color>
+			<transform>2.51617636289 -1.56374514823e-07 0.163997154542 0.0 -0.133949712537 1.45478133976 2.05516570658 0.0 -0.0946178604132 -2.05952669593 1.45170141815 0.0 -0.144286718534 4.47069550822 1.94621276855 1.0</transform>
+		</node>
+		<node type="LightOmni" id="639799034" name="Area.023">
+			<attenuation_distance>10000</attenuation_distance>
+			<shape>2 1 0.200000003</shape>
+			<shape_type>0</shape_type>
+			<intensity>15.707962</intensity>
+			<shadow_bias>1</shadow_bias>
+			<mode>0</mode>
+			<shadow_filter_mode>-1</shadow_filter_mode>
+			<shadow_filter>1</shadow_filter>
+			<shadow_penumbra_mode>-1</shadow_penumbra_mode>
+			<shadow_penumbra>0</shadow_penumbra>
+			<shadow_screen_space>0</shadow_screen_space>
+			<shadow_screen_space_num_rays>2</shadow_screen_space_num_rays>
+			<shadow_screen_space_num_steps>6</shadow_screen_space_num_steps>
+			<shadow_screen_space_noise_ray>0.150000006</shadow_screen_space_noise_ray>
+			<shadow_screen_space_noise_step>0.150000006</shadow_screen_space_noise_step>
+			<shadow_screen_space_step_size_near_distance>0</shadow_screen_space_step_size_near_distance>
+			<shadow_screen_space_step_size_far_distance>500</shadow_screen_space_step_size_far_distance>
+			<shadow_screen_space_step_size_near>2</shadow_screen_space_step_size_near>
+			<shadow_screen_space_step_size_far>30</shadow_screen_space_step_size_far>
+			<shadow_screen_space_threshold_near_distance>0</shadow_screen_space_threshold_near_distance>
+			<shadow_screen_space_threshold_far_distance>200</shadow_screen_space_threshold_far_distance>
+			<shadow_screen_space_threshold_near>3</shadow_screen_space_threshold_near>
+			<shadow_screen_space_threshold_far>0.5</shadow_screen_space_threshold_far>
+			<shadow_color_texture_mode>1</shadow_color_texture_mode>
+			<shadow_screen_space_softness>0.200000003</shadow_screen_space_softness>
+			<shadow_screen_space_translucent_depth_perspective_compensation>0.25</shadow_screen_space_translucent_depth_perspective_compensation>
+			<lens_flare_enabled>0</lens_flare_enabled>
+			<lens_flare_texture>core/textures/lens_flares_default.texture</lens_flare_texture>
+			<lens_flare_intensity>1</lens_flare_intensity>
+			<lens_flare_occlusion_fade>1</lens_flare_occlusion_fade>
+			<lens_flare_occlusion_fade_border>0.200000003</lens_flare_occlusion_fade_border>
+			<lens_flare_position_offset>0 0 0</lens_flare_position_offset>
+			<lens_flare_use_light_color>0</lens_flare_use_light_color>
+			<transform>2.51617658858 -1.65336316468e-07 0.163997357518 0.0 -0.133949935179 1.45478012746 2.05516684273 0.0 -0.0946178880844 -2.05952764942 1.45170006363 0.0 -0.27468852124 2.28159334677 3.43928146362 1.0</transform>
+		</node>
+		<node type="LightOmni" id="1737609745" name="Area.024">
+			<attenuation_distance>10000</attenuation_distance>
+			<shape>2 1 0.200000003</shape>
+			<shape_type>0</shape_type>
+			<intensity>15.707962</intensity>
+			<shadow_bias>1</shadow_bias>
+			<mode>0</mode>
+			<shadow_filter_mode>-1</shadow_filter_mode>
+			<shadow_filter>1</shadow_filter>
+			<shadow_penumbra_mode>-1</shadow_penumbra_mode>
+			<shadow_penumbra>0</shadow_penumbra>
+			<shadow_screen_space>0</shadow_screen_space>
+			<shadow_screen_space_num_rays>2</shadow_screen_space_num_rays>
+			<shadow_screen_space_num_steps>6</shadow_screen_space_num_steps>
+			<shadow_screen_space_noise_ray>0.150000006</shadow_screen_space_noise_ray>
+			<shadow_screen_space_noise_step>0.150000006</shadow_screen_space_noise_step>
+			<shadow_screen_space_step_size_near_distance>0</shadow_screen_space_step_size_near_distance>
+			<shadow_screen_space_step_size_far_distance>500</shadow_screen_space_step_size_far_distance>
+			<shadow_screen_space_step_size_near>2</shadow_screen_space_step_size_near>
+			<shadow_screen_space_step_size_far>30</shadow_screen_space_step_size_far>
+			<shadow_screen_space_threshold_near_distance>0</shadow_screen_space_threshold_near_distance>
+			<shadow_screen_space_threshold_far_distance>200</shadow_screen_space_threshold_far_distance>
+			<shadow_screen_space_threshold_near>3</shadow_screen_space_threshold_near>
+			<shadow_screen_space_threshold_far>0.5</shadow_screen_space_threshold_far>
+			<shadow_color_texture_mode>1</shadow_color_texture_mode>
+			<shadow_screen_space_softness>0.200000003</shadow_screen_space_softness>
+			<shadow_screen_space_translucent_depth_perspective_compensation>0.25</shadow_screen_space_translucent_depth_perspective_compensation>
+			<lens_flare_enabled>0</lens_flare_enabled>
+			<lens_flare_texture>core/textures/lens_flares_default.texture</lens_flare_texture>
+			<lens_flare_intensity>1</lens_flare_intensity>
+			<lens_flare_occlusion_fade>1</lens_flare_occlusion_fade>
+			<lens_flare_occlusion_fade_border>0.200000003</lens_flare_occlusion_fade_border>
+			<lens_flare_position_offset>0 0 0</lens_flare_position_offset>
+			<lens_flare_use_light_color>0</lens_flare_use_light_color>
+			<transform>2.51617636289 -1.56374514823e-07 0.163997154542 0.0 -0.133949712537 1.45478133976 2.05516570658 0.0 -0.0946178604132 -2.05952669593 1.45170141815 0.0 -0.144309606716 4.47071458171 1.94622039795 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="473064508" immovable="1" name="small_top_light">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://f98f729ee042cd3660ce3c5efea3951e81066e34</mesh_name>
+			<surface name="white_gloss.001" intersection="1" material="707cd4f270b95730ab395ab26b5dbb71759ba768"/>
+			<surface name="Aluminium sand black.001" intersection="1" material="3be29df694a0036276f5efb6480571ab27faa5cc"/>
+			<surface name="Aluminium sand.001" intersection="1" material="5bb6272eb74523363b79a0ee71341da9bf6f0044"/>
+			<transform>0.00999999046326 -8.74227212954e-10 -8.74226966309e-10 0.0 -8.74227212954e-10 -2.82129692401e-09 -0.00999999046326 0.0 8.74226966309e-10 0.00999999046326 -2.82129700043e-09 0.0 -0.472480958228 -0.744575101555 2.99807953835 1.0</transform>
+			<node type="LightOmni" id="147452523" name="small_light">
+				<attenuation_distance>10000</attenuation_distance>
+				<shape>2 1 0.200000003</shape>
+				<shape_type>0</shape_type>
+				<intensity>3.92699051</intensity>
+				<shadow_bias>1</shadow_bias>
+				<mode>0</mode>
+				<shadow_filter_mode>-1</shadow_filter_mode>
+				<shadow_filter>1</shadow_filter>
+				<shadow_penumbra_mode>-1</shadow_penumbra_mode>
+				<shadow_penumbra>0</shadow_penumbra>
+				<shadow_screen_space>0</shadow_screen_space>
+				<shadow_screen_space_num_rays>2</shadow_screen_space_num_rays>
+				<shadow_screen_space_num_steps>6</shadow_screen_space_num_steps>
+				<shadow_screen_space_noise_ray>0.150000006</shadow_screen_space_noise_ray>
+				<shadow_screen_space_noise_step>0.150000006</shadow_screen_space_noise_step>
+				<shadow_screen_space_step_size_near_distance>0</shadow_screen_space_step_size_near_distance>
+				<shadow_screen_space_step_size_far_distance>500</shadow_screen_space_step_size_far_distance>
+				<shadow_screen_space_step_size_near>2</shadow_screen_space_step_size_near>
+				<shadow_screen_space_step_size_far>30</shadow_screen_space_step_size_far>
+				<shadow_screen_space_threshold_near_distance>0</shadow_screen_space_threshold_near_distance>
+				<shadow_screen_space_threshold_far_distance>200</shadow_screen_space_threshold_far_distance>
+				<shadow_screen_space_threshold_near>3</shadow_screen_space_threshold_near>
+				<shadow_screen_space_threshold_far>0.5</shadow_screen_space_threshold_far>
+				<shadow_color_texture_mode>1</shadow_color_texture_mode>
+				<shadow_screen_space_softness>0.200000003</shadow_screen_space_softness>
+				<shadow_screen_space_translucent_depth_perspective_compensation>0.25</shadow_screen_space_translucent_depth_perspective_compensation>
+				<lens_flare_enabled>0</lens_flare_enabled>
+				<lens_flare_texture>core/textures/lens_flares_default.texture</lens_flare_texture>
+				<lens_flare_intensity>1</lens_flare_intensity>
+				<lens_flare_occlusion_fade>1</lens_flare_occlusion_fade>
+				<lens_flare_occlusion_fade_border>0.200000003</lens_flare_occlusion_fade_border>
+				<lens_flare_position_offset>0 0 0</lens_flare_position_offset>
+				<lens_flare_use_light_color>0</lens_flare_use_light_color>
+				<transform>10.2836112976 -5.77041195317e-20 3.21515281652e-13 0.0 -5.75982404133e-20 10.2836112976 3.67770599041e-06 0.0 -3.21515281548e-13 -3.67770599041e-06 10.2836112976 0.0 -1.30304854906e-07 -1.49051368237 -17.0766448975 1.0</transform>
+			</node>
+		</node>
+		<node type="ObjectMeshStatic" id="1371137230" immovable="1" name="small_top_light.001">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://5650c7d5cab4ea379d710915921b68411cbf4403</mesh_name>
+			<surface name="white_gloss.001" intersection="1" material="707cd4f270b95730ab395ab26b5dbb71759ba768"/>
+			<surface name="Aluminium sand black.001" intersection="1" material="3be29df694a0036276f5efb6480571ab27faa5cc"/>
+			<surface name="Aluminium sand.001" intersection="1" material="5bb6272eb74523363b79a0ee71341da9bf6f0044"/>
+			<transform>0.00999999046326 -8.74227212954e-10 -8.74226966309e-10 0.0 -8.74227212954e-10 -2.82129692401e-09 -0.00999999046326 0.0 8.74226966309e-10 0.00999999046326 -2.82129700043e-09 0.0 -0.472481172313 -3.19342299146 2.99807953835 1.0</transform>
+			<node type="LightOmni" id="1277666773" name="small_light.001">
+				<attenuation_distance>10000</attenuation_distance>
+				<shape>2 1 0.200000003</shape>
+				<shape_type>0</shape_type>
+				<intensity>3.92699051</intensity>
+				<shadow_bias>1</shadow_bias>
+				<mode>0</mode>
+				<shadow_filter_mode>-1</shadow_filter_mode>
+				<shadow_filter>1</shadow_filter>
+				<shadow_penumbra_mode>-1</shadow_penumbra_mode>
+				<shadow_penumbra>0</shadow_penumbra>
+				<shadow_screen_space>0</shadow_screen_space>
+				<shadow_screen_space_num_rays>2</shadow_screen_space_num_rays>
+				<shadow_screen_space_num_steps>6</shadow_screen_space_num_steps>
+				<shadow_screen_space_noise_ray>0.150000006</shadow_screen_space_noise_ray>
+				<shadow_screen_space_noise_step>0.150000006</shadow_screen_space_noise_step>
+				<shadow_screen_space_step_size_near_distance>0</shadow_screen_space_step_size_near_distance>
+				<shadow_screen_space_step_size_far_distance>500</shadow_screen_space_step_size_far_distance>
+				<shadow_screen_space_step_size_near>2</shadow_screen_space_step_size_near>
+				<shadow_screen_space_step_size_far>30</shadow_screen_space_step_size_far>
+				<shadow_screen_space_threshold_near_distance>0</shadow_screen_space_threshold_near_distance>
+				<shadow_screen_space_threshold_far_distance>200</shadow_screen_space_threshold_far_distance>
+				<shadow_screen_space_threshold_near>3</shadow_screen_space_threshold_near>
+				<shadow_screen_space_threshold_far>0.5</shadow_screen_space_threshold_far>
+				<shadow_color_texture_mode>1</shadow_color_texture_mode>
+				<shadow_screen_space_softness>0.200000003</shadow_screen_space_softness>
+				<shadow_screen_space_translucent_depth_perspective_compensation>0.25</shadow_screen_space_translucent_depth_perspective_compensation>
+				<lens_flare_enabled>0</lens_flare_enabled>
+				<lens_flare_texture>core/textures/lens_flares_default.texture</lens_flare_texture>
+				<lens_flare_intensity>1</lens_flare_intensity>
+				<lens_flare_occlusion_fade>1</lens_flare_occlusion_fade>
+				<lens_flare_occlusion_fade_border>0.200000003</lens_flare_occlusion_fade_border>
+				<lens_flare_position_offset>0 0 0</lens_flare_position_offset>
+				<lens_flare_use_light_color>0</lens_flare_use_light_color>
+				<transform>10.2836112976 -5.77041195317e-20 3.21515281652e-13 0.0 -5.75982404133e-20 10.2836112976 3.67770599041e-06 0.0 -3.21515281548e-13 -3.67770599041e-06 10.2836112976 0.0 -1.30306062829e-07 -1.49052751064 60.4656677246 1.0</transform>
+			</node>
+		</node>
+		<node type="ObjectMeshStatic" id="408042800" immovable="1" name="small_top_light.002">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://3d00850005a92a50c1b654c0d0e8d7b38b899986</mesh_name>
+			<surface name="white_gloss.001" intersection="1" material="707cd4f270b95730ab395ab26b5dbb71759ba768"/>
+			<surface name="Aluminium sand black.001" intersection="1" material="3be29df694a0036276f5efb6480571ab27faa5cc"/>
+			<surface name="Aluminium sand.001" intersection="1" material="5bb6272eb74523363b79a0ee71341da9bf6f0044"/>
+			<transform>0.00999999046326 -8.74227212954e-10 -8.74226966309e-10 0.0 -8.74227212954e-10 -2.82129692401e-09 -0.00999999046326 0.0 8.74226966309e-10 0.00999999046326 -2.82129700043e-09 0.0 -0.472480607839 3.26340989429 2.99807953835 1.0</transform>
+			<node type="LightOmni" id="917319375" name="small_light.002">
+				<attenuation_distance>10000</attenuation_distance>
+				<shape>2 1 0.200000003</shape>
+				<shape_type>0</shape_type>
+				<intensity>3.92699051</intensity>
+				<shadow_bias>1</shadow_bias>
+				<mode>0</mode>
+				<shadow_filter_mode>-1</shadow_filter_mode>
+				<shadow_filter>1</shadow_filter>
+				<shadow_penumbra_mode>-1</shadow_penumbra_mode>
+				<shadow_penumbra>0</shadow_penumbra>
+				<shadow_screen_space>0</shadow_screen_space>
+				<shadow_screen_space_num_rays>2</shadow_screen_space_num_rays>
+				<shadow_screen_space_num_steps>6</shadow_screen_space_num_steps>
+				<shadow_screen_space_noise_ray>0.150000006</shadow_screen_space_noise_ray>
+				<shadow_screen_space_noise_step>0.150000006</shadow_screen_space_noise_step>
+				<shadow_screen_space_step_size_near_distance>0</shadow_screen_space_step_size_near_distance>
+				<shadow_screen_space_step_size_far_distance>500</shadow_screen_space_step_size_far_distance>
+				<shadow_screen_space_step_size_near>2</shadow_screen_space_step_size_near>
+				<shadow_screen_space_step_size_far>30</shadow_screen_space_step_size_far>
+				<shadow_screen_space_threshold_near_distance>0</shadow_screen_space_threshold_near_distance>
+				<shadow_screen_space_threshold_far_distance>200</shadow_screen_space_threshold_far_distance>
+				<shadow_screen_space_threshold_near>3</shadow_screen_space_threshold_near>
+				<shadow_screen_space_threshold_far>0.5</shadow_screen_space_threshold_far>
+				<shadow_color_texture_mode>1</shadow_color_texture_mode>
+				<shadow_screen_space_softness>0.200000003</shadow_screen_space_softness>
+				<shadow_screen_space_translucent_depth_perspective_compensation>0.25</shadow_screen_space_translucent_depth_perspective_compensation>
+				<lens_flare_enabled>0</lens_flare_enabled>
+				<lens_flare_texture>core/textures/lens_flares_default.texture</lens_flare_texture>
+				<lens_flare_intensity>1</lens_flare_intensity>
+				<lens_flare_occlusion_fade>1</lens_flare_occlusion_fade>
+				<lens_flare_occlusion_fade_border>0.200000003</lens_flare_occlusion_fade_border>
+				<lens_flare_position_offset>0 0 0</lens_flare_position_offset>
+				<lens_flare_use_light_color>0</lens_flare_use_light_color>
+				<transform>10.2836112976 -5.77041195317e-20 3.21515281652e-13 0.0 -5.75982404133e-20 10.2836112976 3.67770599041e-06 0.0 -3.21515281548e-13 -3.67770599041e-06 10.2836112976 0.0 -1.30305565449e-07 -1.4905217886 -64.6156005859 1.0</transform>
+			</node>
+		</node>
+		<node type="ObjectMeshStatic" id="370658786" immovable="1" name="small_top_light.003">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://cc3faf0fddabb9195b79e24fbe6ac3a623ad232d</mesh_name>
+			<surface name="white_gloss.001" intersection="1" material="707cd4f270b95730ab395ab26b5dbb71759ba768"/>
+			<surface name="Aluminium sand black.001" intersection="1" material="3be29df694a0036276f5efb6480571ab27faa5cc"/>
+			<surface name="Aluminium sand.001" intersection="1" material="5bb6272eb74523363b79a0ee71341da9bf6f0044"/>
+			<transform>0.00999999046326 -8.74227212954e-10 -8.74226966309e-10 0.0 -8.74227212954e-10 -2.82129692401e-09 -0.00999999046326 0.0 8.74226966309e-10 0.00999999046326 -2.82129700043e-09 0.0 -0.472480821924 0.814561289131 2.99807953835 1.0</transform>
+			<node type="LightOmni" id="1925084121" name="small_light.003">
+				<attenuation_distance>10000</attenuation_distance>
+				<shape>2 1 0.200000003</shape>
+				<shape_type>0</shape_type>
+				<intensity>3.92699051</intensity>
+				<shadow_bias>1</shadow_bias>
+				<mode>0</mode>
+				<shadow_filter_mode>-1</shadow_filter_mode>
+				<shadow_filter>1</shadow_filter>
+				<shadow_penumbra_mode>-1</shadow_penumbra_mode>
+				<shadow_penumbra>0</shadow_penumbra>
+				<shadow_screen_space>0</shadow_screen_space>
+				<shadow_screen_space_num_rays>2</shadow_screen_space_num_rays>
+				<shadow_screen_space_num_steps>6</shadow_screen_space_num_steps>
+				<shadow_screen_space_noise_ray>0.150000006</shadow_screen_space_noise_ray>
+				<shadow_screen_space_noise_step>0.150000006</shadow_screen_space_noise_step>
+				<shadow_screen_space_step_size_near_distance>0</shadow_screen_space_step_size_near_distance>
+				<shadow_screen_space_step_size_far_distance>500</shadow_screen_space_step_size_far_distance>
+				<shadow_screen_space_step_size_near>2</shadow_screen_space_step_size_near>
+				<shadow_screen_space_step_size_far>30</shadow_screen_space_step_size_far>
+				<shadow_screen_space_threshold_near_distance>0</shadow_screen_space_threshold_near_distance>
+				<shadow_screen_space_threshold_far_distance>200</shadow_screen_space_threshold_far_distance>
+				<shadow_screen_space_threshold_near>3</shadow_screen_space_threshold_near>
+				<shadow_screen_space_threshold_far>0.5</shadow_screen_space_threshold_far>
+				<shadow_color_texture_mode>1</shadow_color_texture_mode>
+				<shadow_screen_space_softness>0.200000003</shadow_screen_space_softness>
+				<shadow_screen_space_translucent_depth_perspective_compensation>0.25</shadow_screen_space_translucent_depth_perspective_compensation>
+				<lens_flare_enabled>0</lens_flare_enabled>
+				<lens_flare_texture>core/textures/lens_flares_default.texture</lens_flare_texture>
+				<lens_flare_intensity>1</lens_flare_intensity>
+				<lens_flare_occlusion_fade>1</lens_flare_occlusion_fade>
+				<lens_flare_occlusion_fade_border>0.200000003</lens_flare_occlusion_fade_border>
+				<lens_flare_position_offset>0 0 0</lens_flare_position_offset>
+				<lens_flare_use_light_color>0</lens_flare_use_light_color>
+				<transform>10.2836112976 -5.77041195317e-20 3.21515281652e-13 0.0 -5.75982404133e-20 10.2836112976 3.67770599041e-06 0.0 -3.21515281548e-13 -3.67770599041e-06 10.2836112976 0.0 -1.3030666679e-07 -1.49053442478 8.67750549316 1.0</transform>
+			</node>
+		</node>
+		<node type="ObjectMeshStatic" id="1114917732" immovable="1" name="light_body.008">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://af147a32c9f3e821ce2cbff2c47b0be777a2aaa8</mesh_name>
+			<surface name="Body.001" intersection="1" material="1da5f0aaa0d89194ac221e6a0d061ad2c0c5ec60"/>
+			<surface name="Em.001" intersection="1" material="0470cd66bb0c9d4cc36b6f264232acc95ca6e7bc"/>
+			<transform>0.455343276262 -1.32348898008e-23 1.61770428613e-15 0.0 1.32348898008e-23 0.455343276262 -1.41424205917e-22 0.0 -1.61770428613e-15 1.41424205917e-22 0.455343276262 0.0 -3.84515138832 -2.31437530281 4.07656669617 1.0</transform>
+			<node type="ObjectMeshStatic" id="1327800179" immovable="1" name="light_cable.008">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://f85854d93611a0f7ddb9ca19d4861d41ca188de7</mesh_name>
+				<surface name="Body.001" intersection="1" material="1da5f0aaa0d89194ac221e6a0d061ad2c0c5ec60"/>
+				<transform>7.54979071917e-08 8.74227734035e-08 1 0.0 8.74227734035e-08 1 -8.74227800037e-08 0.0 -1 8.74227800037e-08 7.54978995489e-08 0.0 -2.0883626935 0.00324887412931 1.43251228333 1.0</transform>
+				<node type="ObjectMeshStatic" id="1796070966" immovable="1" name="light_mount.008">
+					<streaming_mode_vram>0</streaming_mode_vram>
+					<streaming_mode_ram>0</streaming_mode_ram>
+					<mesh_name>guid://28df6eb42576dc993f531a74e916ade823c7321a</mesh_name>
+					<surface name="Body.001" intersection="1" material="1da5f0aaa0d89194ac221e6a0d061ad2c0c5ec60"/>
+					<transform>7.54979026916e-08 8.74227681927e-08 -0.999999940395 0.0 8.74227681927e-08 0.999999940395 8.74227747929e-08 0.0 0.999999940395 -8.74227747929e-08 7.54978950489e-08 0.0 1.78764736624 -0.0032493246771 -0.0103120803833 1.0</transform>
+				</node>
+			</node>
+		</node>
+		<node type="ObjectMeshStatic" id="1710407709" immovable="1" name="light_body.009">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://28a6bbb30bc86239dd5d42f38a5f623e500cdab1</mesh_name>
+			<surface name="Body.001" intersection="1" material="1da5f0aaa0d89194ac221e6a0d061ad2c0c5ec60"/>
+			<surface name="Em.001" intersection="1" material="0470cd66bb0c9d4cc36b6f264232acc95ca6e7bc"/>
+			<transform>0.455343276262 -1.32348898008e-23 1.61770428613e-15 0.0 1.32348898008e-23 0.455343276262 -1.41424205917e-22 0.0 -1.61770428613e-15 1.41424205917e-22 0.455343276262 0.0 -3.84515125891 -0.834126732366 4.07656669617 1.0</transform>
+			<node type="ObjectMeshStatic" id="1696809688" immovable="1" name="light_cable.009">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://4071d30614ecd83c370354c6ac283dd1c781945c</mesh_name>
+				<surface name="Body.001" intersection="1" material="1da5f0aaa0d89194ac221e6a0d061ad2c0c5ec60"/>
+				<transform>7.54979071917e-08 8.74227734035e-08 1 0.0 8.74227734035e-08 1 -8.74227800037e-08 0.0 -1 8.74227800037e-08 7.54978995489e-08 0.0 -2.0883626935 0.00324935096647 1.43251228333 1.0</transform>
+				<node type="ObjectMeshStatic" id="1928554583" immovable="1" name="light_mount.009">
+					<streaming_mode_vram>0</streaming_mode_vram>
+					<streaming_mode_ram>0</streaming_mode_ram>
+					<mesh_name>guid://6949aa1d1de624595d97935da52a7f027c1c240b</mesh_name>
+					<surface name="Body.001" intersection="1" material="1da5f0aaa0d89194ac221e6a0d061ad2c0c5ec60"/>
+					<transform>7.54979026916e-08 8.74227681927e-08 -0.999999940395 0.0 8.74227681927e-08 0.999999940395 8.74227747929e-08 0.0 0.999999940395 -8.74227747929e-08 7.54978950489e-08 0.0 1.05868065329 -0.00324949936738 -0.0103120803833 1.0</transform>
+				</node>
+			</node>
+		</node>
+		<node type="ObjectMeshStatic" id="1054665162" immovable="1" name="light_body.010">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://fe488ba8562fffa8a39fd368b6124bcb454c29ee</mesh_name>
+			<surface name="Body.001" intersection="1" material="1da5f0aaa0d89194ac221e6a0d061ad2c0c5ec60"/>
+			<surface name="Em.001" intersection="1" material="0470cd66bb0c9d4cc36b6f264232acc95ca6e7bc"/>
+			<transform>0.455343276262 -1.32348898008e-23 1.61770428613e-15 0.0 1.32348898008e-23 0.455343276262 -1.41424205917e-22 0.0 -1.61770428613e-15 1.41424205917e-22 0.455343276262 0.0 -3.84515111428 0.820268371089 4.07656669617 1.0</transform>
+			<node type="ObjectMeshStatic" id="1200049825" immovable="1" name="light_cable.010">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://efe84a9775702c67d03865d7cb287890323fe875</mesh_name>
+				<surface name="Body.001" intersection="1" material="1da5f0aaa0d89194ac221e6a0d061ad2c0c5ec60"/>
+				<transform>7.54979071917e-08 8.74227734035e-08 1 0.0 8.74227734035e-08 1 -8.74227800037e-08 0.0 -1 8.74227800037e-08 7.54978995489e-08 0.0 -2.0883626935 0.00324958938505 1.43251228333 1.0</transform>
+				<node type="ObjectMeshStatic" id="1968904076" immovable="1" name="light_mount.010">
+					<streaming_mode_vram>0</streaming_mode_vram>
+					<streaming_mode_ram>0</streaming_mode_ram>
+					<mesh_name>guid://a5fa111a840e46199e208eda2530da8bf3b95f50</mesh_name>
+					<surface name="Body.001" intersection="1" material="1da5f0aaa0d89194ac221e6a0d061ad2c0c5ec60"/>
+					<transform>7.54979026916e-08 8.74227681927e-08 -0.999999940395 0.0 8.74227681927e-08 0.999999940395 8.74227747929e-08 0.0 0.999999940395 -8.74227747929e-08 7.54978950489e-08 0.0 1.40236103506 -0.00324917178501 -0.0103120803833 1.0</transform>
+				</node>
+			</node>
+		</node>
+		<node type="ObjectMeshStatic" id="1243409787" immovable="1" name="light_body.011">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://c6e0cba175172109defa68e1a7fe2889c7a2aa6f</mesh_name>
+			<surface name="Body.001" intersection="1" material="1da5f0aaa0d89194ac221e6a0d061ad2c0c5ec60"/>
+			<surface name="Em.001" intersection="1" material="0470cd66bb0c9d4cc36b6f264232acc95ca6e7bc"/>
+			<transform>0.455343276262 -1.32348898008e-23 1.61770428613e-15 0.0 1.32348898008e-23 0.455343276262 -1.41424205917e-22 0.0 -1.61770428613e-15 1.41424205917e-22 0.455343276262 0.0 -3.84515097726 2.38759002922 4.07656669617 1.0</transform>
+			<node type="ObjectMeshStatic" id="931726494" immovable="1" name="light_cable.011">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://3a688fdc9d6c03c8c2a5339c3fc04057d470d502</mesh_name>
+				<surface name="Body.001" intersection="1" material="1da5f0aaa0d89194ac221e6a0d061ad2c0c5ec60"/>
+				<transform>7.54979071917e-08 8.74227734035e-08 1 0.0 8.74227734035e-08 1 -8.74227800037e-08 0.0 -1 8.74227800037e-08 7.54978995489e-08 0.0 -2.0883626935 0.00324935096647 1.43251228333 1.0</transform>
+				<node type="ObjectMeshStatic" id="430515045" immovable="1" name="light_mount.011">
+					<streaming_mode_vram>0</streaming_mode_vram>
+					<streaming_mode_ram>0</streaming_mode_ram>
+					<mesh_name>guid://7cd7ffbbc830cc412632eefb0cde7de8c83a9079</mesh_name>
+					<surface name="Body.001" intersection="1" material="1da5f0aaa0d89194ac221e6a0d061ad2c0c5ec60"/>
+					<transform>7.54979026916e-08 8.74227681927e-08 -0.999999940395 0.0 8.74227681927e-08 0.999999940395 8.74227747929e-08 0.0 0.999999940395 -8.74227747929e-08 7.54978950489e-08 0.0 1.40236103506 -0.00324881415714 -0.0103120803833 1.0</transform>
+				</node>
+			</node>
+		</node>
+		<node type="ObjectMeshStatic" id="1660747136" immovable="1" name="light_body.012">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://8f01086e133360f76d14422ecefd3953d8c97f84</mesh_name>
+			<surface name="Body.001" intersection="1" material="1da5f0aaa0d89194ac221e6a0d061ad2c0c5ec60"/>
+			<surface name="Em.001" intersection="1" material="0470cd66bb0c9d4cc36b6f264232acc95ca6e7bc"/>
+			<transform>0.455343276262 -1.32348898008e-23 1.61770428613e-15 0.0 1.32348898008e-23 0.455343276262 -1.41424205917e-22 0.0 -1.61770428613e-15 1.41424205917e-22 0.455343276262 0.0 -8.6544839975 -2.31437488236 4.07656669617 1.0</transform>
+			<node type="ObjectMeshStatic" id="1372115679" immovable="1" name="light_cable.012">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://5d91fd65721b4cac2dca8ea579b83465fb5d0513</mesh_name>
+				<surface name="Body.001" intersection="1" material="1da5f0aaa0d89194ac221e6a0d061ad2c0c5ec60"/>
+				<transform>7.54979071917e-08 8.74227734035e-08 1 0.0 8.74227734035e-08 1 -8.74227800037e-08 0.0 -1 8.74227800037e-08 7.54978995489e-08 0.0 -2.08835983248 0.00324887412906 1.43251228333 1.0</transform>
+				<node type="ObjectMeshStatic" id="2137883314" immovable="1" name="light_mount.012">
+					<streaming_mode_vram>0</streaming_mode_vram>
+					<streaming_mode_ram>0</streaming_mode_ram>
+					<mesh_name>guid://82cf6f505aa6033e4e8f2f10f518740a8f08c756</mesh_name>
+					<surface name="Body.001" intersection="1" material="1da5f0aaa0d89194ac221e6a0d061ad2c0c5ec60"/>
+					<transform>7.54979026916e-08 8.74227681927e-08 -0.999999940395 0.0 8.74227681927e-08 0.999999940395 8.74227747929e-08 0.0 0.999999940395 -8.74227747929e-08 7.54978950489e-08 0.0 1.78764665098 -0.00324932467703 -0.010311126709 1.0</transform>
+				</node>
+			</node>
+		</node>
+		<node type="ObjectMeshStatic" id="443777641" immovable="1" name="light_body.013">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://f33bbf1f8e4c1f4667a6c25f3de6993876b356bd</mesh_name>
+			<surface name="Body.001" intersection="1" material="1da5f0aaa0d89194ac221e6a0d061ad2c0c5ec60"/>
+			<surface name="Em.001" intersection="1" material="0470cd66bb0c9d4cc36b6f264232acc95ca6e7bc"/>
+			<transform>0.455343276262 -1.32348898008e-23 1.61770428613e-15 0.0 1.32348898008e-23 0.455343276262 -1.41424205917e-22 0.0 -1.61770428613e-15 1.41424205917e-22 0.455343276262 0.0 -8.65448386809 -0.834126311921 4.07656669617 1.0</transform>
+			<node type="ObjectMeshStatic" id="1451452596" immovable="1" name="light_cable.013">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://3f6fcd0299ccf24bcdc382c2f1e60078308ea8f8</mesh_name>
+				<surface name="Body.001" intersection="1" material="1da5f0aaa0d89194ac221e6a0d061ad2c0c5ec60"/>
+				<transform>7.54979071917e-08 8.74227734035e-08 1 0.0 8.74227734035e-08 1 -8.74227800037e-08 0.0 -1 8.74227800037e-08 7.54978995489e-08 0.0 -2.08835983248 0.00324935096622 1.43251228333 1.0</transform>
+				<node type="ObjectMeshStatic" id="912718979" immovable="1" name="light_mount.013">
+					<streaming_mode_vram>0</streaming_mode_vram>
+					<streaming_mode_ram>0</streaming_mode_ram>
+					<mesh_name>guid://d38dc369687690657eec88a9698f757a0b3857f7</mesh_name>
+					<surface name="Body.001" intersection="1" material="1da5f0aaa0d89194ac221e6a0d061ad2c0c5ec60"/>
+					<transform>7.54979026916e-08 8.74227681927e-08 -0.999999940395 0.0 8.74227681927e-08 0.999999940395 8.74227747929e-08 0.0 0.999999940395 -8.74227747929e-08 7.54978950489e-08 0.0 1.05867898436 -0.00324949936723 -0.010311126709 1.0</transform>
+				</node>
+			</node>
+		</node>
+		<node type="ObjectMeshStatic" id="823195654" immovable="1" name="light_body.014">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://55245e04a2cd18f16360f9c4c0f66633d876d4ea</mesh_name>
+			<surface name="Body.001" intersection="1" material="1da5f0aaa0d89194ac221e6a0d061ad2c0c5ec60"/>
+			<surface name="Em.001" intersection="1" material="0470cd66bb0c9d4cc36b6f264232acc95ca6e7bc"/>
+			<transform>0.455343276262 -1.32348898008e-23 1.61770428613e-15 0.0 1.32348898008e-23 0.455343276262 -1.41424205917e-22 0.0 -1.61770428613e-15 1.41424205917e-22 0.455343276262 0.0 -8.65448372346 0.820268791534 4.07656669617 1.0</transform>
+			<node type="ObjectMeshStatic" id="900984749" immovable="1" name="light_cable.014">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://1a6facc34491a9c0e1c404035b7447ef5e26ff41</mesh_name>
+				<surface name="Body.001" intersection="1" material="1da5f0aaa0d89194ac221e6a0d061ad2c0c5ec60"/>
+				<transform>7.54979071917e-08 8.74227734035e-08 1 0.0 8.74227734035e-08 1 -8.74227800037e-08 0.0 -1 8.74227800037e-08 7.54978995489e-08 0.0 -2.08835983248 0.0032495893848 1.43251228333 1.0</transform>
+				<node type="ObjectMeshStatic" id="267783464" immovable="1" name="light_mount.014">
+					<streaming_mode_vram>0</streaming_mode_vram>
+					<streaming_mode_ram>0</streaming_mode_ram>
+					<mesh_name>guid://1e98b2d6bd054a78753ca496ff7dc3d17b76cfac</mesh_name>
+					<surface name="Body.001" intersection="1" material="1da5f0aaa0d89194ac221e6a0d061ad2c0c5ec60"/>
+					<transform>7.54979026916e-08 8.74227681927e-08 -0.999999940395 0.0 8.74227681927e-08 0.999999940395 8.74227747929e-08 0.0 0.999999940395 -8.74227747929e-08 7.54978950489e-08 0.0 1.40235936613 -0.00324917178486 -0.010311126709 1.0</transform>
+				</node>
+			</node>
+		</node>
+		<node type="ObjectMeshStatic" id="1578339943" immovable="1" name="light_body.015">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://fc04e1ad92fb53dfb7851aedffe5b55f2002071b</mesh_name>
+			<surface name="Body.001" intersection="1" material="1da5f0aaa0d89194ac221e6a0d061ad2c0c5ec60"/>
+			<surface name="Em.001" intersection="1" material="0470cd66bb0c9d4cc36b6f264232acc95ca6e7bc"/>
+			<transform>0.455343276262 -1.32348898008e-23 1.61770428613e-15 0.0 1.32348898008e-23 0.455343276262 -1.41424205917e-22 0.0 -1.61770428613e-15 1.41424205917e-22 0.455343276262 0.0 -8.65448358644 2.38759044967 4.07656669617 1.0</transform>
+			<node type="ObjectMeshStatic" id="909719706" immovable="1" name="light_cable.015">
+				<streaming_mode_vram>0</streaming_mode_vram>
+				<streaming_mode_ram>0</streaming_mode_ram>
+				<mesh_name>guid://4a19cff81c9ecd7d65e907b8bab069045d0111be</mesh_name>
+				<surface name="Body.001" intersection="1" material="1da5f0aaa0d89194ac221e6a0d061ad2c0c5ec60"/>
+				<transform>7.54979071917e-08 8.74227734035e-08 1 0.0 8.74227734035e-08 1 -8.74227800037e-08 0.0 -1 8.74227800037e-08 7.54978995489e-08 0.0 -2.08835983248 0.00324935096622 1.43251228333 1.0</transform>
+				<node type="ObjectMeshStatic" id="1357786929" immovable="1" name="light_mount.015">
+					<streaming_mode_vram>0</streaming_mode_vram>
+					<streaming_mode_ram>0</streaming_mode_ram>
+					<mesh_name>guid://9a4a2ca78b7bb9f7777517e75e067ba31e1c8e05</mesh_name>
+					<surface name="Body.001" intersection="1" material="1da5f0aaa0d89194ac221e6a0d061ad2c0c5ec60"/>
+					<transform>7.54979026916e-08 8.74227681927e-08 -0.999999940395 0.0 8.74227681927e-08 0.999999940395 8.74227747929e-08 0.0 0.999999940395 -8.74227747929e-08 7.54978950489e-08 0.0 1.40235936613 -0.00324881415699 -0.010311126709 1.0</transform>
+				</node>
+			</node>
+		</node>
+		<node type="ObjectMeshStatic" id="1528684252" immovable="1" name="AM152_068_Volica_LED_System">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://8b4b4deae28ef95873cb3baa1162393802f527a0</mesh_name>
+			<surface name="Aluminium sand black.001" intersection="1" material="3be29df694a0036276f5efb6480571ab27faa5cc"/>
+			<surface name="Em.001" intersection="1" material="0470cd66bb0c9d4cc36b6f264232acc95ca6e7bc"/>
+			<transform>1 -8.74228046683e-08 -8.74227800037e-08 0.0 -8.74228046683e-08 -2.82129961461e-07 -1 0.0 8.74227800037e-08 1 -2.82129969103e-07 0.0 -3.24748113668 2.39582400102 4.03825712204 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="121302155" immovable="1" name="garage_door_frame">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://56ac5c314b4a2b9fa07d497198476541ef4bb67f</mesh_name>
+			<surface name="Aluminium sand black.001" intersection="1" material="3be29df694a0036276f5efb6480571ab27faa5cc"/>
+			<transform>1 -2.64697796017e-23 0 0.0 2.64697796017e-23 1 0 0.0 0 0 1 0.0 -0.47667539199 -0.00906427880258 3.39959430695 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="775903342" immovable="1" name="garage_door">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://9fa1792c636c0e3ce9f50cec52d818ad6064d1d2</mesh_name>
+			<surface name="Aluminium sand black.001" intersection="1" material="3be29df694a0036276f5efb6480571ab27faa5cc"/>
+			<transform>1 -2.64697796017e-23 0 0.0 2.64697796017e-23 1 0 0.0 0 0 1 0.0 -10.5133161553 -0.00906340137154 0 1.0</transform>
+		</node>
+		<node type="ObjectMeshStatic" id="1973437685" immovable="1" name="garage_door_detail">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://3e3fe2cbbbfe99f4b882a20bdf8d2508caa94709</mesh_name>
+			<surface name="Aluminium sand black.001" intersection="1" material="3be29df694a0036276f5efb6480571ab27faa5cc"/>
+			<transform>1 -2.64697796017e-23 0 0.0 2.64697796017e-23 1 0 0.0 0 0 1 0.0 -10.5133161553 -0.00906340137154 0 1.0</transform>
+		</node>
+	</node>
+</nodes>

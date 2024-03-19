@@ -26,12 +26,13 @@ public class DrugObject : Component
 	public MouseHandler mouseHandler = null;
 	private dmat4 transform;
 	private dmat4 initialTransform;
-	float thresholdDistance = 0.1f;
+	private float thresholdDistance = 0.1f;
 	private bool flag;
 
 	// Словарь для хранения исходных позиций деталей
 	// private Dictionary<Unigine.Object, dvec3> initialTransforms = new Dictionary<Unigine.Object, dvec3>();
 	private Dictionary<Unigine.Object, (dmat4, dvec3)> initialTransforms = new Dictionary<Unigine.Object, (dmat4, dvec3)>();
+	private Dictionary<Unigine.Object, (dmat4, dvec3)> initialTransformsDrone2 = new Dictionary<Unigine.Object, (dmat4, dvec3)>();
 
 	private void Init()
 	{
@@ -40,6 +41,19 @@ public class DrugObject : Component
 		mainObject = node as Unigine.Object;
 		//flag2 = false;
 		SetOutline(1, mainObject);
+
+// Находим 'Drone2' в сцене
+    // Node drone2Node = World.GetNodeByName("Drone2");
+    // if (drone2Node != null)
+    // {
+    //     // Если найден, добавляем его исходное состояние в словарь
+    //     Unigine.Object drone2Object = drone2Node as Unigine.Object;
+    //     if (drone2Object != null)
+    //     {
+    //         initialTransformsDrone2.Add(drone2Object, (drone2Object.WorldTransform, drone2Object.WorldPosition));
+    //     }
+    // }
+
 	}
 	private void SetOutline(int enabled, Unigine.Object gameObject)
 	{
@@ -47,19 +61,20 @@ public class DrugObject : Component
 			gameObject.SetMaterialState("auxiliary", enabled, i);
 	}
 
+
 	private void Update()
 	{
 		
-		//Node baseptr2 = World.GetNodeByName("Drone2");
-		//ObjectMeshDynamic derivedptr = baseptr2 as ObjectMeshDynamic;
-
-		// upcast to the pointer to the Object class which is a base class for ObjectMeshDynamic
+ 	// Поиск объекта 'Drone2' в сцене
+    Node drone2Node = World.GetNodeByName("Drone2");
+    if (drone2Node != null)
+    {
+        // Если объект найден, делаем его невидимым
+        drone2Node.Enabled = false;
+    }
 	
-		// upcast to the pointer to the Node class which is a base class for all scene objects
-		// Node nodeDrone2 = derivedptr;
-		// nodeDrone2.Enabled = true;
-		
-		
+
+
 
 		drugObject = cameraCast.GetObject();
 		if (flag)
@@ -75,7 +90,7 @@ public class DrugObject : Component
 		{
 			if (mouse == "LeftPress")
 			{
-				SetOutline(1, drugObject);
+				SetOutline(0, drugObject);
 				if (!flag && drugObject != null && drugObject.RootNode.Name == "Drone")
 				{
 					mainObject = drugObject;
@@ -86,7 +101,6 @@ public class DrugObject : Component
 						initialTransforms.Add(mainObject, (mainObject.WorldTransform, mainObject.WorldPosition));
 					}		
 				}
-				SetOutline(1, drugObject);//еще сюда добавил на всякий 
 
 				(dmat4, dvec3) initialValues;
 				initialTransforms.TryGetValue(mainObject, out initialValues);
@@ -95,7 +109,7 @@ public class DrugObject : Component
 				if (distancee < thresholdDistance)
 				{
 
-					
+					drone2Node.Enabled = true;
 					SetOutline(1, drugObject);
 				}
 				flag = true;
@@ -106,7 +120,8 @@ public class DrugObject : Component
 			{
 				
 				flag = false;
-				SetOutline(1, mainObject);
+				SetOutline(0, mainObject);
+				drone2Node.Enabled = false;
 				// Проверяем, если текущее расстояние между объектом и его исходным положением меньше порога, то возвращаем его на исходное место;
 				(dmat4, dvec3) initialValues;
 				initialTransforms.TryGetValue(mainObject, out initialValues);
@@ -114,8 +129,8 @@ public class DrugObject : Component
 				if (distancee < thresholdDistance)
 				{
 					mainObject.WorldTransform = initialValues.Item1;
-					SetOutline(1, mainObject);
-					//mainObject.SetMaterialState("auxiliary", 1,); нужная строчка кода для обводки. черновик.
+					SetOutline(0, mainObject);
+					
 					
 				}
 				//SetOutline(0);

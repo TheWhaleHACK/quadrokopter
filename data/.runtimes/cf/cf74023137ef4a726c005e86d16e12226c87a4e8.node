@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodes version="2.18.0.1">
+	<node type="NodeDummy" id="711885062" name="Drone2">
+		<transform>1 2.64697796017e-22 -3.82137123179e-15 0.0 9.26442286059e-23 1 8.74227800037e-08 0.0 3.82137123179e-15 -8.74227800037e-08 1 0.0 0 0 0 1.0</transform>
+		<node type="ObjectMeshStatic" id="84534445" immovable="1" name="Plane">
+			<streaming_mode_vram>0</streaming_mode_vram>
+			<streaming_mode_ram>0</streaming_mode_ram>
+			<mesh_name>guid://ee5aa0dd92056cd4ce6732ec9c69cc60e5aec327</mesh_name>
+			<surface name="Material.002" intersection="1" material="f54a4e035202f582ee6a18c04fbea5cbea4b26b2"/>
+			<transform>1380.18078613 0.000120659260889 -0.000120659241231 0.0 0.000120659260889 -0.000224859981034 1380.18078613 0.0 0.000120659241231 -1380.18078613 -0.000224859991582 0.0 2.88359944428e-16 -3.29845315392e-09 -0.0754598093033 1.0</transform>
+		</node>
+		<node type="ObjectMeshSkinned" id="1139899944" name="Cube.009">
+			<mesh_name>guid://252a88cba1fa17930fc4732821d72c6696df665a</mesh_name>
+			<fps_visible_camera>-1</fps_visible_camera>
+			<fps_visible_shadow>30</fps_visible_shadow>
+			<fps_invisible>0</fps_invisible>
+			<anim_name>guid://4b471cf54865d8ddc7aab49ace1f46c1a343129c</anim_name>
+			<speed>30</speed>
+			<surface name="Metal_Parts" intersection="1" material="52bae9338a929491829e83b07f163c805f2dfd22"/>
+			<surface name="Material.001" intersection="1" material="6a609207a2476f82ca5e1114dd3e94b007952ba6"/>
+			<surface name="Body.002" intersection="1" material="086db06fe3f48b1da801b79c4fd5c2cb0d81bc6e"/>
+			<surface name="Body_Logo" intersection="1" material="1c05031b2772eb5455524bb8dfbec5cf642f9f6a"/>
+			<surface name="Glass.001" intersection="1" material="4822fccf88aac7eb15f65b7c7bb18610a14cf74e"/>
+			<surface name="Camera_Logo" intersection="1" material="de8eb2270ba377c77729d3b44effaac825f24b46"/>
+			<surface name="Camera.001" intersection="1" material="8a64d49f2bf7ce10f5a05f8c73f8c28de2acefde"/>
+			<surface name="Camera_lens_glass" intersection="1" material="d256c75b0f692dbd89f1a4f8c8353bf5115a32aa"/>
+			<surface name="Black_Camera" intersection="1" material="465e62471cb755c05746665448716f4909963ae6"/>
+			<surface name="Camera_Lens_Black" intersection="1" material="b145a8afe0c1940628b754dc96deab58cc8b13ae"/>
+			<surface name="Battery.001" intersection="1" material="0aa9817bed104b5786c8099868aa77fe23bb344a"/>
+			<surface name="Battery_Logo" intersection="1" material="c8756683a4367f526dd79b404d5bbb9ade951d32"/>
+			<surface name="Blades.001" intersection="1" material="bc58d48bcc90c7d6a83669e8674ac8eaa8d4231a"/>
+			<surface name="Blades_White" intersection="1" material="0de9eb931a56e3bffe5515908d9cedc9f41be602"/>
+			<surface name="Nuts.001" intersection="1" material="bd22cb9bd7b7a6f9bcd83e386a1f3cc7068405ea"/>
+			<surface name="Motor.001" intersection="1" material="c3027287cafa15dc0e11fb940077cc77f0528a26"/>
+			<surface name="Stand.001" intersection="1" material="04dd61b3735ee46414b6e6304ed4968678b6d3a2"/>
+			<surface name="Fan_Guard" intersection="1" material="29dc651fbac144a4370bba0cc39715f2399bbe5e"/>
+			<transform>1 6.93771004924e-23 3.82137123179e-15 0.0 2.41430667903e-22 1 -8.74227800037e-08 0.0 -3.82137123179e-15 8.74227800037e-08 1 0.0 0 0 0 1.0</transform>
+		</node>
+		<node type="NodeDummy" id="970869607" name="Armature.032">
+			<transform>6.99730205536 6.11723697868e-07 -6.11723598205e-07 0.0 6.11723697868e-07 -1.14000515242e-06 6.99730205536 0.0 6.11723598205e-07 -6.99730205536 -1.14000520589e-06 0.0 -6.9791198853e-16 7.98318228384e-09 0.182633914948 1.0</transform>
+		</node>
+	</node>
+</nodes>

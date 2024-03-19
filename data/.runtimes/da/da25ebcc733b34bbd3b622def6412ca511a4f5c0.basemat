@@ -19,6 +19,7 @@ Color "albedo_color"=[1.000000 1.000000 1.000000 1.000000] < shader_name="var_79
 Slider "roughness"=0.500000 < min=0 max=1 shader_name="var_4b93d8479cb2d112283ef34d1b437d234adde333">
 }
 	State static_shadow = true
+	State use_bound_scale = false
 
 	
 	Shader vertex_struct =

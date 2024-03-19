@@ -50,6 +50,7 @@
 		<Compile Include="data/Code/RayCast/HUD.cs"/>
 		<Compile Include="data/Code/DrugAndDrop/SelectObject.cs"/>
 		<Compile Include="data/Code/DrugAndDrop/DrugObject.cs"/>
+		<Compile Include="data/Code/AnimControl.cs"/>
 	</ItemGroup>
 	<ItemGroup>
 		<Compile Include="data\csharp_template\FP_controller\components\FirstPersonController.cs"/>

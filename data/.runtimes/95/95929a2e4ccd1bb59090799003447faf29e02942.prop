@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<property version="2.18.0.1" name="AnimControl" guid="95929a2e4ccd1bb59090799003447faf29e02942" parent="657ecdbbfc83135a26777f86012da3587b67be0c" editable="0">
+	<parameter name="EngineAnim" type="file" filter=".anim"/>
+	<parameter name="MainEngine" type="node" filter="ObjectMeshSkinned"/>
+</property>

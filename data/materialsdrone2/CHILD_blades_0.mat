@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material version="2.18.0.1" guid="bcd42d445a2a24609a20f38e8976b75812a42858" base_material="4dfec30f491f753f6e89094db6d3d695e89f9d6f">
+	<parameter name="microfiber" expression="0">1</parameter>
+	<parameter name="translucent" expression="0">1</parameter>
+</material>
